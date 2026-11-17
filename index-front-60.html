@@ -1,0 +1,2288 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head><script>(function(){if(location.protocol!=='file:')return;function s(){if(document.getElementById('__site_host_notice'))return;var d=document.createElement('div');d.id='__site_host_notice';d.style.cssText='position:fixed;inset:0;z-index:2147483647;background:#0A0A0A;color:#fff;display:flex;align-items:center;justify-content:center;padding:24px;font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif';d.innerHTML='<div style="max-width:440px;text-align:center;line-height:1.55"><div style="font-size:20px;font-weight:600;margin-bottom:12px">Quase l&aacute;: seu site precisa estar publicado</div><div style="opacity:.85;font-size:15px">Abrir o arquivo direto no computador n&atilde;o funciona, &eacute; uma prote&ccedil;&atilde;o do navegador. Para ver seu site, publique esta pasta em qualquer hospedagem de sites.</div><div style="opacity:.7;font-size:13px;margin-top:14px">Jeito r&aacute;pido e gr&aacute;tis: acesse <b>app.netlify.com/drop</b> e arraste a pasta para a p&aacute;gina.</div></div>';(document.body||document.documentElement).appendChild(d);}if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',s);}else{s();}setTimeout(s,400);})();</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liberação de Saque - G Captcha Oficial</title>
+        
+    <!-- DNS Prefetch e Fontes Otimizadas para Ultra Rápido Carregamento Mobile -->
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="dns-prefetch" href="//fonts.gstatic.com">
+    <link rel="dns-prefetch" href="//cdn.tailwindcss.com">
+    <link rel="dns-prefetch" href="//cdn.utmify.com.br">
+    <!-- [demo-analise] dns-prefetch do checkout removido -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+        
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+        
+    <!-- UTMify e Pixel -->
+    <script>
+        window.pixelId = "68c3ce2f85d279d913865e26";
+        var a = document.createElement("script");
+        a.setAttribute("async", "");
+        a.setAttribute("defer", "");
+        a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
+        document.head.appendChild(a);
+    </script>
+    <script src="https://cdn.utmify.com.br/scripts/utms/latest.js" data-utmify-prevent-xcod-sck data-utmify-prevent-subids async defer></script>
+        
+    <style>
+        html {
+            font-size: 17px; /* Aumenta a escala geral das fontes para público 45+ */
+        }
+        @media (min-width: 640px) {
+            html {
+                font-size: 18px;
+            }
+        }
+        body {
+            font-family: 'Plus Jakarta Sans', 'Inter', sans-serif;
+            background: linear-gradient(180deg, #f8fafc 0%, #edf2f7 100%);
+            color: #0f172a;
+            overflow-x: hidden;
+            -webkit-font-smoothing: antialiased;
+            line-height: 1.6;
+        }
+
+        /* Glassmorphism e Cards Limpos */
+        .glass-card {
+            background: rgba(255, 255, 255, 0.98);
+            backdrop-filter: blur(14px);
+            border: 1px solid rgba(226, 232, 240, 0.9);
+            box-shadow: 0 10px 30px -5px rgba(15, 23, 42, 0.04), 0 4px 12px -2px rgba(15, 23, 42, 0.02);
+        }
+
+        .cta-shadow {
+            box-shadow: 0 12px 28px -4px rgba(22, 163, 74, 0.4), 0 6px 12px -2px rgba(22, 163, 74, 0.25);
+        }
+
+        /* Animações */
+        @keyframes pop {
+            0% { transform: scale(0.95); opacity: 0; }
+            100% { transform: scale(1); opacity: 1; }
+        }
+        .animate-pop { animation: pop 0.25s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
+
+        @keyframes pulse-ring {
+            0% { box-shadow: 0 0 0 0 rgba(22, 163, 74, 0.5); }
+            70% { box-shadow: 0 0 0 12px rgba(22, 163, 74, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(22, 163, 74, 0); }
+        }
+        .animate-pulse-ring { animation: pulse-ring 2.2s cubic-bezier(0.4, 0, 0.6, 1) infinite; }
+
+        .progress-striped {
+            background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.25) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 75%, transparent 75%, transparent);
+            background-size: 1.25rem 1.25rem;
+            animation: progress-stripes 0.9s linear infinite;
+        }
+        @keyframes progress-stripes {
+            0% { background-position: 1.25rem 0; }
+            100% { background-position: 0 0; }
+        }
+
+        /* Feixe de Luz (Shine) */
+        .button-shine {
+            position: relative;
+            overflow: hidden;
+        }
+        .button-shine::after {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: linear-gradient(
+                60deg,
+                transparent 30%,
+                rgba(255, 255, 255, 0.3) 50%,
+                transparent 70%
+            );
+            transform: rotate(30deg);
+            animation: shine 3.5s infinite;
+        }
+        @keyframes shine {
+            0% { transform: translateX(-100%) rotate(30deg); }
+            20% { transform: translateX(100%) rotate(30deg); }
+            100% { transform: translateX(100%) rotate(30deg); }
+        }
+        /* [demo-analise] Botao oficial GSI com o visual do template (azul #1a73e8, grande, largo) */
+        #gsiBtnWrap { display: flex; justify-content: center; width: 100%; }
+        #gsiBtnWrap > div, #gsiBtnWrap > div > div { width: 100% !important; max-width: 384px; margin: 0 auto; }
+        #gsiBtnWrap [role="button"] {
+            width: 100% !important;
+            min-height: 58px !important;
+            background: #1a73e8 !important;
+            border: none !important;
+            border-radius: 1rem !important;
+            box-shadow: 0 10px 15px -3px rgba(26, 115, 232, .25) !important;
+            padding: 0 1rem !important;
+            display: flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+            gap: .75rem !important;
+            transition: background .2s ease;
+        }
+        #gsiBtnWrap [role="button"]:hover { background: #1557b0 !important; }
+        #gsiBtnWrap [role="button"] span {
+            color: #ffffff !important;
+            font-weight: 800 !important;
+            text-transform: uppercase !important;
+            font-size: 15px !important;
+            letter-spacing: .03em;
+            line-height: 1.2;
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col items-center antialiased pb-4 selection:bg-blue-100 selection:text-blue-900">
+
+    <!-- BARRA SUPERIOR (HEADER FIXO — LOGO CENTRALIZADA) -->
+    <div class="w-full bg-white/95 backdrop-blur-md border-b border-slate-200 py-2.5 px-4 sticky top-0 z-30 shadow-xs">
+        <div class="max-w-4xl mx-auto flex justify-center items-center py-1">
+            <img src="Logo G Captcha.png" alt="G Captcha" class="h-9 sm:h-10 w-auto object-contain">
+        </div>
+    </div>
+
+    <!-- CONTEÚDO PRINCIPAL (EXATAMENTE COMO NA FOTO DE SUCESSO) -->
+    <main class="w-full max-w-2xl mx-auto space-y-7 py-8 px-4 sm:px-6">
+        
+        <!-- BADGE VERDE SUPERIOR -->
+        <div class="flex justify-center">
+            <div class="inline-flex items-center gap-2 bg-emerald-50 text-emerald-700 border border-emerald-200 px-4 py-1.5 rounded-full text-xs font-bold tracking-wide uppercase shadow-xs">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-emerald-600" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" />
+                </svg>
+                Saque G Captcha Liberado
+            </div>
+        </div>
+
+        <!-- TÍTULO PRINCIPAL (FORMATO ORIGINAL ESTÁVEL NO MOBILE) -->
+        <header class="text-center space-y-3.5">
+            <h1 class="text-[1.75rem] xs:text-3xl sm:text-4xl md:text-[2.65rem] font-black text-slate-900 leading-[1.2] sm:leading-[1.18] tracking-tight">
+                Seu saque de <span id="animatedValue" class="text-blue-600 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-indigo-600 tabular-nums whitespace-nowrap inline-block text-center min-w-[7ch]">R$ 0</span> do <br class="hidden sm:block">
+                G Captcha pode ser <br class="hidden sm:block">
+                liberado ainda hoje
+            </h1>
+            <p class="text-slate-600 text-xs sm:text-base max-w-xl mx-auto leading-relaxed">
+                O sistema já processou os seus ganhos. O saldo de R$ 17.658,00 está <span class="font-bold text-slate-900 bg-amber-100/90 px-1.5 py-0.5 rounded">reservado na central</span> aguardando apenas a sua validação final para ser enviado.
+            </p>
+        </header>
+
+        <!-- CRONÔMETRO DE URGÊNCIA (RED BOX) -->
+        <div class="bg-gradient-to-r from-red-50 via-rose-50 to-red-50 border-2 border-red-200/90 text-red-700 rounded-2xl p-4 flex justify-center items-center gap-2.5 font-bold text-base sm:text-lg shadow-xs">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 animate-pulse text-red-600 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            <span>Tempo limite de liberação:</span>
+            <span id="timer" class="tracking-wider font-mono font-black text-red-800 bg-white/90 px-2.5 py-0.5 rounded-lg border border-red-200 shadow-inner tabular-nums">14:59</span>
+        </div>
+
+        <!-- CAIXA DE ALERTA: AÇÃO OBRIGATÓRIA (PUNIÇÃO POR ABANDONO) -->
+        <div class="glass-card rounded-2xl p-6 shadow-xs relative overflow-hidden border-l-4 border-l-red-500">
+            <h3 class="font-extrabold text-slate-900 text-base mb-2 flex items-center gap-2">
+                <span class="inline-block w-2.5 h-2.5 rounded-full bg-red-500 animate-ping"></span>
+                Atenção: Ação Obrigatória
+            </h3>
+            <p class="text-slate-600 mb-5 text-sm sm:text-base leading-relaxed">
+                Esse valor só será liberado se você confirmar ainda hoje. Se não validar dentro do prazo, o sistema automaticamente:
+            </p>
+            <ul class="space-y-3">
+                <li class="flex items-start gap-3 text-sm text-slate-700 font-medium">
+                    <div class="bg-red-100 text-red-600 p-1 rounded-full shrink-0 mt-0.5">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" />
+                        </svg>
+                    </div>
+                    <span>Bloqueia o saque gerado pelo G Captcha</span>
+                </li>
+                <li class="flex items-start gap-3 text-sm text-slate-700 font-medium">
+                    <div class="bg-red-100 text-red-600 p-1 rounded-full shrink-0 mt-0.5">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" />
+                        </svg>
+                    </div>
+                    <span>Devolve os R$ 17.658 ao fundo interno do G Captcha</span>
+                </li>
+                <li class="flex items-start gap-3 text-sm text-slate-700 font-medium">
+                    <div class="bg-red-100 text-red-600 p-1 rounded-full shrink-0 mt-0.5">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" />
+                        </svg>
+                    </div>
+                    <span>Encerra sua prioridade de acesso ao aplicativo</span>
+                </li>
+                <li class="flex items-start gap-3 text-sm text-slate-700 font-medium">
+                    <div class="bg-red-100 text-red-600 p-1 rounded-full shrink-0 mt-0.5">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" />
+                        </svg>
+                    </div>
+                    <span>Impede qualquer liberação posterior de saque</span>
+                </li>
+            </ul>
+        </div>
+
+        <!-- BLOCO AZUL: JUSTIFICATIVA LÓGICA (DE ONDE VEM O DINHEIRO) -->
+        <div class="bg-gradient-to-br from-blue-600 via-indigo-600 to-blue-700 rounded-3xl p-6 sm:p-7 text-white shadow-xl shadow-blue-500/10 relative overflow-hidden">
+            <div class="absolute -right-8 -top-8 opacity-10 pointer-events-none">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-48 w-48" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                </svg>
+            </div>
+                        
+            <div class="relative z-10">
+                <span class="bg-white/20 backdrop-blur-md text-white text-[10px] font-extrabold px-3 py-1 rounded-full uppercase tracking-widest mb-3 inline-block border border-white/20">Certificação de Ganhos</span>
+                <h3 class="font-black text-xl sm:text-2xl mb-2.5">De onde vem este valor de R$ 17.658?</h3>
+                <p class="text-sm sm:text-base text-blue-50/95 leading-relaxed font-normal">
+                    O G Captcha vendeu o seu pacote de resoluções de dados para treinar Inteligências Artificiais de grandes empresas de tecnologia. O trabalho foi feito pela sua conta, e a lei exige que <strong>100% deste montante</strong> seja repassado para si. O dinheiro não é um sorteio, é o seu pagamento por direito.
+                </p>
+                <img src="Certificado.png" alt="Certificado de Ganhos" class="mt-5 mx-auto w-full max-w-sm rounded-2xl border border-white/30 shadow-lg">
+            </div>
+        </div>
+
+        <!-- BLOCO MÉTRICAS: ESSE VALOR NÃO É ALEATÓRIO -->
+        <section class="pt-1">
+            <h2 class="text-xl sm:text-2xl font-black text-center text-slate-900 mb-5">
+                Esse valor não é aleatório. <span class="text-amber-500 underline decoration-amber-300 decoration-wavy underline-offset-4">É resultado.</span>
+            </h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div class="glass-card rounded-2xl p-5 shadow-xs flex items-center gap-4 border border-slate-200">
+                    <div class="bg-amber-100/80 text-amber-600 w-12 h-12 rounded-2xl flex items-center justify-center shrink-0 border border-amber-200">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                    </div>
+                    <p class="text-xs sm:text-sm text-slate-600 font-medium leading-relaxed">
+                        Valor acumulado pelo G Captcha através de resoluções automatizadas
+                    </p>
+                </div>
+                <div class="glass-card rounded-2xl p-5 shadow-xs flex items-center gap-4 border border-slate-200">
+                    <div class="bg-amber-100/80 text-amber-600 w-12 h-12 rounded-2xl flex items-center justify-center shrink-0 border border-amber-200">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
+                        </svg>
+                    </div>
+                    <p class="text-xs sm:text-sm text-slate-600 font-medium leading-relaxed">
+                        O G Captcha já gerou milhares de saques acima de R$2.000 nas últimas semanas
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CARDS: AO CONFIRMAR AGORA, VOCÊ GARANTE -->
+        <section class="pt-1">
+            <h2 class="text-xl sm:text-2xl font-black text-center text-slate-900 mb-5">
+                Ao confirmar agora, você garante:
+            </h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div class="glass-card rounded-2xl p-5 shadow-xs hover:border-blue-300 transition-all">
+                    <div class="bg-blue-50 text-blue-600 w-10 h-10 rounded-xl flex items-center justify-center mb-3 border border-blue-100">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                    </div>
+                    <h3 class="font-extrabold text-slate-900 text-base sm:text-lg">Saque Integral (R$17.658)</h3>
+                    <p class="text-xs sm:text-sm text-slate-600 mt-1 leading-relaxed">O valor será transferido diretamente para a sua chave PIX sem deduções.</p>
+                </div>
+                <div class="glass-card rounded-2xl p-5 shadow-xs hover:border-amber-300 transition-all">
+                    <div class="bg-amber-50 text-amber-600 w-10 h-10 rounded-xl flex items-center justify-center mb-3 border border-amber-100">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                        </svg>
+                    </div>
+                    <h3 class="font-extrabold text-slate-900 text-base sm:text-lg">Multiplicador VIP</h3>
+                    <p class="text-xs sm:text-sm text-slate-600 mt-1 leading-relaxed">Sua conta continuará ativa para você lucrar todos os dias no G Captcha.</p>
+                </div>
+
+                <div class="glass-card rounded-2xl p-5 shadow-xs hover:border-red-300 transition-all">
+                    <div class="bg-red-50 text-red-600 w-10 h-10 rounded-xl flex items-center justify-center mb-3 border border-red-100">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
+                        </svg>
+                    </div>
+                    <h3 class="font-extrabold text-slate-900 text-base sm:text-lg">Grupo VIP</h3>
+                    <p class="text-xs sm:text-sm text-slate-600 mt-1 leading-relaxed">Acesso ao grupo exclusivo do G Captcha</p>
+                </div>
+                <div class="glass-card rounded-2xl p-5 shadow-xs hover:border-emerald-300 transition-all">
+                    <div class="bg-emerald-50 text-emerald-600 w-10 h-10 rounded-xl flex items-center justify-center mb-3 border border-emerald-100">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
+                        </svg>
+                    </div>
+                    <h3 class="font-extrabold text-slate-900 text-base sm:text-lg">Suporte direto</h3>
+                    <p class="text-xs sm:text-sm text-slate-600 mt-1 leading-relaxed">Equipe oficial do G Captcha</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SEÇÃO: PASSO A PASSO (COMO FUNCIONA O PAGAMENTO DA TAXA) -->
+        <section class="glass-card rounded-3xl p-6 sm:p-8 shadow-xs border border-slate-200">
+            <img src="Infografico.png" alt="Infográfico do funil" class="w-full rounded-2xl border border-slate-200 shadow-xs mb-6">
+            <h2 class="text-xl font-black text-slate-900 mb-7 text-center">Passo a passo para liberar o seu saque:</h2>
+                        
+            <div class="relative mb-6">
+                <!-- Linha conectora -->
+                <div class="absolute left-[23px] top-5 bottom-5 w-0.5 bg-gradient-to-b from-blue-500 via-blue-300 to-emerald-500"></div>
+                                
+                <div class="space-y-7 relative">
+                    <!-- Passo 1 -->
+                    <div class="flex gap-4 items-start">
+                        <div class="w-12 h-12 rounded-2xl bg-blue-600 text-white flex items-center justify-center font-extrabold text-xl shrink-0 z-10 shadow-md shadow-blue-500/20 ring-4 ring-white">1</div>
+                        <div>
+                            <h4 class="font-extrabold text-slate-900 text-base mt-1">Aperte no Botão Verde</h4>
+                            <p class="text-xs sm:text-sm text-slate-600 mt-0.5 leading-relaxed">Inicie o processo rolando a tela para baixo e clicando em "Pagar R$ 60 e Sacar".</p>
+                        </div>
+                    </div>
+                    <!-- Passo 2 -->
+                    <div class="flex gap-4 items-start">
+                        <div class="w-12 h-12 rounded-2xl bg-white border-2 border-blue-600 text-blue-600 flex items-center justify-center font-extrabold text-xl shrink-0 z-10 ring-4 ring-white shadow-xs">2</div>
+                        <div>
+                            <h4 class="font-extrabold text-slate-900 text-base mt-1">Cadastre sua Chave PIX</h4>
+                            <p class="text-xs sm:text-sm text-slate-600 mt-0.5 leading-relaxed">Informe exatamente a chave para onde o sistema deve transferir o dinheiro.</p>
+                        </div>
+                    </div>
+                    <!-- Passo 3 -->
+                    <div class="flex gap-4 items-start">
+                        <div class="w-12 h-12 rounded-2xl bg-white border-2 border-blue-600 text-blue-600 flex items-center justify-center font-extrabold text-xl shrink-0 z-10 ring-4 ring-white shadow-xs">3</div>
+                        <div>
+                            <h4 class="font-extrabold text-slate-900 text-base mt-1">Efetue o Pagamento de Segurança</h4>
+                            <p class="text-xs sm:text-sm text-slate-600 mt-0.5 leading-relaxed">Preencha seus dados de pagamento no checkout e pague a taxa única antifraude.</p>
+                        </div>
+                    </div>
+                    <!-- Passo 4 -->
+                    <div class="flex gap-4 items-start">
+                        <div class="w-12 h-12 rounded-2xl bg-emerald-600 text-white flex items-center justify-center font-extrabold text-xl shrink-0 z-10 ring-4 ring-white shadow-md shadow-emerald-500/20">
+                            4
+                        </div>
+                        <div>
+                            <h4 class="font-extrabold text-emerald-700 text-base mt-1 flex items-center gap-1.5">
+                                Saldo Cai na Conta
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                                </svg>
+                            </h4>
+                            <p class="text-xs sm:text-sm text-slate-600 mt-0.5 leading-relaxed">Após a confirmação da taxa, os R$ 17.658 são depositados automaticamente no seu banco.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Aviso Importante -->
+            <div class="bg-gradient-to-r from-red-50 to-rose-50 border border-red-200 rounded-2xl p-4 flex items-start gap-3 mt-4 shadow-xs">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-red-600 shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+                </svg>
+                <p class="text-xs sm:text-sm text-red-700 font-medium leading-relaxed">
+                    <strong>Atenção:</strong> Apenas gerar a chave PIX e não efetuar o pagamento da taxa <strong>não lhe dá direito</strong> ao saldo. A liberação ocorre estritamente após a baixa do pagamento.
+                </p>
+            </div>
+        </section>
+
+        <!-- BLOCO PRINCIPAL DE PAGAMENTO, EXTRATO E CTA (CORAÇÃO DA CONVERSÃO) -->
+        <div class="bg-white border-2 border-slate-200/90 rounded-3xl shadow-xl mt-8 overflow-hidden relative">
+            <div class="absolute top-0 left-0 right-0 h-1.5 bg-gradient-to-r from-blue-600 via-indigo-600 to-emerald-500"></div>
+
+            <!-- Extrato Visual -->
+            <div class="bg-slate-50/90 p-6 border-b border-slate-200">
+                <h3 class="text-xs font-black text-slate-500 uppercase tracking-widest mb-4 text-center">Extrato de Liberação</h3>
+                                
+                <div class="space-y-2.5 max-w-md mx-auto">
+                    <div class="flex justify-between items-center text-sm sm:text-base">
+                        <span class="text-slate-600 font-medium">Saldo a Transferir</span>
+                        <span class="font-black text-emerald-700 text-lg sm:text-xl">R$ 17.658,00</span>
+                    </div>
+                    <div class="flex justify-between items-center text-sm sm:text-base">
+                        <span class="text-slate-600 font-medium">Taxa de Validação de Dados</span>
+                        <span class="font-extrabold text-red-600">- R$ 60,00</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="p-6 sm:p-8 text-center">
+                <p class="text-sm sm:text-base text-slate-700 mb-4 max-w-lg mx-auto leading-relaxed">
+                    Para que o sistema libere o seu PIX gigante de <strong>R$ 17.658,00</strong>, o gateway exige o pagamento da taxa de validação no valor de:
+                </p>
+                                
+                <div class="text-4xl sm:text-5xl font-black text-slate-900 mb-6 tracking-tight">R$ 60,00</div>
+                                
+                <!-- Botão Primário de Conversão -->
+                <button onclick="openPixModal()" class="button-shine w-full bg-emerald-600 hover:bg-emerald-700 text-white font-black py-4 sm:py-5 px-4 sm:px-6 rounded-2xl text-base sm:text-lg cta-shadow transition-all flex items-center justify-center gap-2 transform hover:scale-[1.015] active:scale-[0.99] animate-pulse-ring mb-4 tracking-wide cursor-pointer">
+                    <span>Quero liberar meu saldo</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 sm:h-6 sm:w-6 shrink-0" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                    </svg>
+                </button>
+
+                <!-- Logos de Segurança -->
+                <div class="flex items-center justify-center gap-3 opacity-75 mt-4 mb-5">
+                    <span class="font-black text-slate-600 text-xs tracking-widest">PIX</span>
+                    <div class="h-3.5 w-px bg-slate-300"></div>
+                    <span class="text-[11px] font-bold text-slate-600 uppercase flex items-center gap-1 tracking-wide">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5 text-emerald-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8V7z" /></svg>
+                        Gateway Seguro
+                    </span>
+                </div>
+                                
+                <!-- Garantia de Devolução Rápida -->
+                <div class="bg-emerald-50/80 border border-emerald-200 rounded-2xl p-4 flex items-start gap-3.5 text-left">
+                    <div class="bg-white p-2 rounded-xl shadow-xs shrink-0 border border-emerald-100">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-emerald-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                        </svg>
+                    </div>
+                    <div>
+                        <h4 class="font-extrabold text-emerald-900 text-sm">Garantia de Devolução Rápida</h4>
+                        <p class="text-xs sm:text-sm text-emerald-800 mt-0.5 leading-relaxed">
+                            Se o seu PIX de R$ 17.658 não cair na conta em até 3 minutos após o pagamento, a taxa de R$ 60 é devolvida automaticamente para si, sem perguntas.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ============================================================== -->
+        <!-- SEÇÃO: VÍDEOS DEPOIMENTOS REAIS (MÁXIMA AUTORIDADE E CONVERSÃO) -->
+        <!-- ============================================================== -->
+        <section class="space-y-5 pt-4">
+            <div class="text-center space-y-2">
+                <div class="inline-flex items-center gap-2 bg-red-50 text-red-700 border border-red-200 px-4 py-1.5 rounded-full text-xs font-black tracking-wide uppercase shadow-xs">
+                    <span class="flex h-2.5 w-2.5 relative">
+                        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75"></span>
+                        <span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-red-500"></span>
+                    </span>
+                    <span>Vídeos Gravados em Tempo Real</span>
+                </div>
+                <h2 class="text-2xl sm:text-3xl font-black text-slate-900 tracking-tight">
+                    Veja quem já pagou a taxa e recebeu na conta
+                </h2>
+                <p class="text-xs sm:text-sm text-slate-600 max-w-lg mx-auto">
+                    Dê o play abaixo e veja o relato sincero de pessoas reais que estavam com dúvida, pagaram os R$ 60 e receberam o PIX:
+                </p>
+            </div>
+
+            <!-- Grid com os 2 Vídeos -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                <!-- Vídeo 1 -->
+                <div class="glass-card rounded-3xl overflow-hidden shadow-md border-2 border-slate-200/90 flex flex-col hover:border-emerald-300 transition-all bg-white">
+                    <div class="relative bg-black w-full rounded-t-3xl overflow-hidden">
+                        <video controls playsinline preload="metadata" class="w-full h-auto max-h-[520px] mx-auto block bg-black">
+                            <source src="depoimento1.mp4" type="video/mp4">
+                            Seu navegador não suporta a reprodução deste vídeo.
+                        </video>
+                        <div class="absolute top-3 left-3 bg-black/60 backdrop-blur-md text-white text-[11px] font-bold px-3 py-1 rounded-full flex items-center gap-1.5 border border-white/20 pointer-events-none">
+                            <span class="w-2 h-2 rounded-full bg-emerald-400"></span>
+                            <span>Relato Gravado pelo Usuário</span>
+                        </div>
+                    </div>
+                    <div class="p-4 bg-white flex-1 flex flex-col justify-between space-y-1.5">
+                        <div class="flex items-center justify-between text-xs sm:text-sm">
+                            <span class="font-bold text-slate-900 flex items-center gap-1">
+                                ✓ Pagamento Confirmado
+                            </span>
+                            <span class="text-emerald-700 font-black font-mono">PIX Recebido</span>
+                        </div>
+                        <p class="text-xs sm:text-sm text-slate-600 leading-relaxed font-medium">
+                            "Eu também achei que era golpe no começo, mas paguei a taxa e o dinheiro caiu certinho no meu banco!"
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Vídeo 2 -->
+                <div class="glass-card rounded-3xl overflow-hidden shadow-md border-2 border-slate-200/90 flex flex-col hover:border-emerald-300 transition-all bg-white">
+                    <div class="relative bg-black w-full rounded-t-3xl overflow-hidden">
+                        <video controls playsinline preload="metadata" class="w-full h-auto max-h-[520px] mx-auto block bg-black">
+                            <source src="depoimento2.mp4" type="video/mp4">
+                            Seu navegador não suporta a reprodução deste vídeo.
+                        </video>
+                        <div class="absolute top-3 left-3 bg-black/60 backdrop-blur-md text-white text-[11px] font-bold px-3 py-1 rounded-full flex items-center gap-1.5 border border-white/20 pointer-events-none">
+                            <span class="w-2 h-2 rounded-full bg-emerald-400"></span>
+                            <span>Relato Gravado pelo Usuário</span>
+                        </div>
+                    </div>
+                    <div class="p-4 bg-white flex-1 flex flex-col justify-between space-y-1.5">
+                        <div class="flex items-center justify-between text-xs sm:text-sm">
+                            <span class="font-bold text-slate-900 flex items-center gap-1">
+                                ✓ Pagamento Confirmado
+                            </span>
+                            <span class="text-emerald-700 font-black font-mono">PIX Recebido</span>
+                        </div>
+                        <p class="text-xs sm:text-sm text-slate-600 leading-relaxed font-medium">
+                            "Menos de 5 minutos depois que paguei os 60 reais a notificação do banco já apitou com todo o valor na conta."
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Botão de Ação Imediato após os Vídeos -->
+            <div class="pt-2">
+                <button onclick="openPixModal()" class="button-shine w-full bg-emerald-600 hover:bg-emerald-700 text-white font-black py-4 px-6 rounded-2xl text-base cta-shadow transition-all flex items-center justify-center gap-2 transform hover:scale-[1.01] active:scale-[0.99] cursor-pointer">
+                    <span>Quero liberar meu saldo</span>
+                    <svg class="h-5 w-5 shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"/>
+                    </svg>
+                </button>
+            </div>
+        </section>
+
+        <!-- ============================================================== -->
+        <!-- SEÇÃO: GALERIA DE CONQUISTAS REAIS APÓS O SAQUE                -->
+        <!-- (FOTOS REAIS DE DÍVIDAS, MOTO, MERCADO, GELADEIRA, INVESTIMENTO E ROUPAS) -->
+        <!-- ============================================================== -->
+        <section class="space-y-6 pt-4">
+            <div class="text-center space-y-2">
+                <span class="inline-block bg-emerald-100 text-emerald-800 text-[11px] font-black uppercase px-3.5 py-1 rounded-full tracking-wider border border-emerald-300">
+                    Transformação Real • Fotos Enviadas pelos Usuários
+                </span>
+                <h2 class="text-2xl sm:text-3xl font-black text-slate-900 tracking-tight">
+                    O que as pessoas fizeram após receber os R$ 17.658?
+                </h2>
+                <p class="text-xs sm:text-sm text-slate-600 max-w-lg mx-auto">
+                    Veja como a liberação do saldo mudou a realidade de quem pagou a taxa e validou a conta:
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+
+                <!-- CARD 1: DÍVIDAS QUITADAS -->
+                <div class="glass-card rounded-2xl overflow-hidden shadow-xs hover:shadow-md transition-all border border-slate-200 flex flex-col">
+                    <div class="relative overflow-hidden aspect-[4/3]">
+                        <img src="dividas_pagas.jpg.jpeg" alt="Pessoa com contas e boletos pagos" loading="lazy" decoding="async" class="w-full h-full object-cover">
+                        <div class="absolute top-3 left-3 bg-emerald-600/90 backdrop-blur-md text-white text-[10px] font-black px-2.5 py-1 rounded-full uppercase tracking-wider shadow-sm">
+                            ✓ Dívidas Zeradas
+                        </div>
+                    </div>
+                    <div class="p-4 flex-1 flex flex-col justify-between space-y-2">
+                        <div>
+                            <div class="flex justify-between items-center text-xs text-slate-500 mb-1">
+                                <span class="font-bold text-slate-900">Rodrigo Silveira (42 anos)</span>
+                                <span>Há 2 dias</span>
+                            </div>
+                            <h4 class="font-extrabold text-slate-900 text-sm">"Nome limpo no SPC e todas as contas pagas!"</h4>
+                            <p class="text-xs text-slate-600 mt-1 leading-relaxed">
+                                "Tava devendo cartão, luz atrasada e empréstimo. Paguei os R$ 60 tremendo, mas quando os R$ 17.658 caíram, quitei tudo no mesmo dia. Não tem preço dormir em paz!"
+                            </p>
+                        </div>
+                        <div class="pt-2 border-t border-slate-100 text-[11px] font-bold text-emerald-700 flex items-center gap-1">
+                            <span>💰 Destino:</span> Quitação total de boletos e cartões
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CARD 2: MOTO 0KM -->
+                <div class="glass-card rounded-2xl overflow-hidden shadow-xs hover:shadow-md transition-all border border-slate-200 flex flex-col">
+                    <div class="relative overflow-hidden aspect-[4/3]">
+                        <img src="moto_comprada.jpg.jpeg" alt="Jovem com moto 0km comprada" loading="lazy" decoding="async" class="w-full h-full object-cover">
+                        <div class="absolute top-3 left-3 bg-blue-600/90 backdrop-blur-md text-white text-[10px] font-black px-2.5 py-1 rounded-full uppercase tracking-wider shadow-sm">
+                            🏍️ Moto 0km À Vista
+                        </div>
+                    </div>
+                    <div class="p-4 flex-1 flex flex-col justify-between space-y-2">
+                        <div>
+                            <div class="flex justify-between items-center text-xs text-slate-500 mb-1">
+                                <span class="font-bold text-slate-900">Lucas Menezes (27 anos)</span>
+                                <span>Ontem</span>
+                            </div>
+                            <h4 class="font-extrabold text-slate-900 text-sm">"Saí da concessionária com minha Titan nova!"</h4>
+                            <p class="text-xs text-slate-600 mt-1 leading-relaxed">
+                                "Eu dependia de ônibus lotado todo santo dia para trabalhar. Peguei o saque de R$ 17.658 e comprei minha moto zerinho na hora. Minha vida mudou da água pro vinho."
+                            </p>
+                        </div>
+                        <div class="pt-2 border-t border-slate-100 text-[11px] font-bold text-blue-700 flex items-center gap-1">
+                            <span>🔑 Destino:</span> Compra de moto 160cc à vista
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CARD 3: COMPRA DO MÊS NO MERCADO -->
+                <div class="glass-card rounded-2xl overflow-hidden shadow-xs hover:shadow-md transition-all border border-slate-200 flex flex-col">
+                    <div class="relative overflow-hidden aspect-[4/3]">
+                        <img src="compras_mercado.jpg.jpeg" alt="Casal com carrinho cheio no mercado" loading="lazy" decoding="async" class="w-full h-full object-cover">
+                        <div class="absolute top-3 left-3 bg-amber-600/90 backdrop-blur-md text-white text-[10px] font-black px-2.5 py-1 rounded-full uppercase tracking-wider shadow-sm">
+                            🛒 Mercado sem Olhar Preço
+                        </div>
+                    </div>
+                    <div class="p-4 flex-1 flex flex-col justify-between space-y-2">
+                        <div>
+                            <div class="flex justify-between items-center text-xs text-slate-500 mb-1">
+                                <span class="font-bold text-slate-900">Juliana & Carlos (Família)</span>
+                                <span>Há 3 dias</span>
+                            </div>
+                            <h4 class="font-extrabold text-slate-900 text-sm">"Despensa cheia e comida boa pra casa toda"</h4>
+                            <p class="text-xs text-slate-600 mt-1 leading-relaxed">
+                                "Faziam mais de 3 anos que a gente não conseguia fazer uma compra digna no mercado sem ficar somando na calculadora. Compramos carne de primeira, iogurte e tudo que as crianças pediram!"
+                            </p>
+                        </div>
+                        <div class="pt-2 border-t border-slate-100 text-[11px] font-bold text-amber-700 flex items-center gap-1">
+                            <span>🥩 Destino:</span> Compra completa do mês com fartura
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CARD 4: GELADEIRA INOX DOS SONHOS -->
+                <div class="glass-card rounded-2xl overflow-hidden shadow-xs hover:shadow-md transition-all border border-slate-200 flex flex-col">
+                    <div class="relative overflow-hidden aspect-[4/3]">
+                        <img src="geladeira_nova.jpg.jpeg" alt="Mulher celebrando geladeira nova na cozinha" loading="lazy" decoding="async" class="w-full h-full object-cover">
+                        <div class="absolute top-3 left-3 bg-purple-600/90 backdrop-blur-md text-white text-[10px] font-black px-2.5 py-1 rounded-full uppercase tracking-wider shadow-sm">
+                            ❄️ Eletrodoméstico Novo
+                        </div>
+                    </div>
+                    <div class="p-4 flex-1 flex flex-col justify-between space-y-2">
+                        <div>
+                            <div class="flex justify-between items-center text-xs text-slate-500 mb-1">
+                                <span class="font-bold text-slate-900">Camila Duarte (35 anos)</span>
+                                <span>Esta semana</span>
+                            </div>
+                            <h4 class="font-extrabold text-slate-900 text-sm">"Realizei o sonho da geladeira duplex inox!"</h4>
+                            <p class="text-xs text-slate-600 mt-1 leading-relaxed">
+                                "Minha geladeira velha tava vazando água e congelando tudo errado. Quando caiu o Pix na minha conta, fui direto na loja e realizei esse sonho pra minha cozinha. Gratidão demais!"
+                            </p>
+                        </div>
+                        <div class="pt-2 border-t border-slate-100 text-[11px] font-bold text-purple-700 flex items-center gap-1">
+                            <span>✨ Destino:</span> Geladeira duplex inox nova
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CARD 5: INVESTIMENTO RENDENDO NO BANCO -->
+                <div class="glass-card rounded-2xl overflow-hidden shadow-xs hover:shadow-md transition-all border border-slate-200 flex flex-col">
+                    <div class="relative overflow-hidden aspect-[4/3]">
+                        <img src="investimento_banco.jpg.jpeg" alt="App de banco com dinheiro investido rendendo" loading="lazy" decoding="async" class="w-full h-full object-cover">
+                        <div class="absolute top-3 left-3 bg-emerald-700/90 backdrop-blur-md text-white text-[10px] font-black px-2.5 py-1 rounded-full uppercase tracking-wider shadow-sm">
+                            📈 Reserva Guardada & Rendendo
+                        </div>
+                    </div>
+                    <div class="p-4 flex-1 flex flex-col justify-between space-y-2">
+                        <div>
+                            <div class="flex justify-between items-center text-xs text-slate-500 mb-1">
+                                <span class="font-bold text-slate-900">Gabriel Freitas (31 anos)</span>
+                                <span>Hoje às 09:40</span>
+                            </div>
+                            <h4 class="font-extrabold text-slate-900 text-sm">"Coloquei no CDB e já tá rendendo todo dia"</h4>
+                            <p class="text-xs text-slate-600 mt-1 leading-relaxed">
+                                "Deixei boa parte dos R$ 17.658 aplicados no banco para render juros diários e ter uma reserva de emergência segura. É uma sensação maravilhosa ver o dinheiro trabalhando pra você!"
+                            </p>
+                        </div>
+                        <div class="pt-2 border-t border-slate-100 text-[11px] font-bold text-emerald-700 flex items-center gap-1">
+                            <span>🏦 Destino:</span> Investimento com liquidez diária
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CARD 6: ROUPAS NOVAS E AUTOESTIMA -->
+                <div class="glass-card rounded-2xl overflow-hidden shadow-xs hover:shadow-md transition-all border border-slate-200 flex flex-col">
+                    <div class="relative overflow-hidden aspect-[4/3]">
+                        <img src="compras_roupas.jpg.jpeg" alt="Mulher feliz com sacolas de compras no shopping" loading="lazy" decoding="async" class="w-full h-full object-cover">
+                        <div class="absolute top-3 left-3 bg-pink-600/90 backdrop-blur-md text-white text-[10px] font-black px-2.5 py-1 rounded-full uppercase tracking-wider shadow-sm">
+                            🛍️ Renovação de Guarda-Roupa
+                        </div>
+                    </div>
+                    <div class="p-4 flex-1 flex flex-col justify-between space-y-2">
+                        <div>
+                            <div class="flex justify-between items-center text-xs text-slate-500 mb-1">
+                                <span class="font-bold text-slate-900">Fernanda Prado (29 anos)</span>
+                                <span>Há 4 dias</span>
+                            </div>
+                            <h4 class="font-extrabold text-slate-900 text-sm">"Fui ao shopping e renovei meu guarda-roupa!"</h4>
+                            <p class="text-xs text-slate-600 mt-1 leading-relaxed">
+                                "Comprei roupas novas, calçados e presentes que eu sempre quis mas nunca sobrava dinheiro. Poder passar o cartão sabendo que o saldo tá garantido na conta não tem comparação!"
+                            </p>
+                        </div>
+                        <div class="pt-2 border-t border-slate-100 text-[11px] font-bold text-pink-700 flex items-center gap-1">
+                            <span>👗 Destino:</span> Roupas novas e compras no shopping
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- 15 DEPOIMENTOS COMPLETOS (PROVA SOCIAL IDÊNTICA À FOTO) -->
+        <section class="mt-10 space-y-4">
+            <h2 class="text-xl font-black text-slate-900 text-center mb-6">Quem já ativou, recomenda</h2>
+                        
+            <div class="space-y-3.5">
+                <!-- Depoimento 1 -->
+                <div class="glass-card rounded-2xl p-5 shadow-xs border border-slate-200">
+                    <div class="flex items-center gap-3 mb-2.5">
+                        <img src="https://i.pravatar.cc/150?img=47" alt="Avatar" loading="lazy" decoding="async" width="40" height="40" class="w-10 h-10 rounded-full object-cover ring-2 ring-blue-500/20">
+                        <div>
+                            <h4 class="font-bold text-slate-900 text-sm">Ana Beatriz</h4>
+                            <div class="flex items-center gap-1 text-amber-400 text-xs">
+                                ★★★★★ <span class="text-slate-400 font-medium ml-1">Há 2 min</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-xs sm:text-sm text-slate-700 leading-relaxed">
+                        Confesso que achei que era golpe, mas resolvi arriscar os 60 reais. Em menos de 2 minutos recebi a notificação do banco com os 17 mil! Tô tremendo até agora 🙏😭
+                    </p>
+                </div>
+
+                <!-- Depoimento 2 -->
+                <div class="glass-card rounded-2xl p-5 shadow-xs border border-slate-200">
+                    <div class="flex items-center gap-3 mb-2.5">
+                        <img src="https://i.pravatar.cc/150?img=68" alt="Avatar" loading="lazy" decoding="async" width="40" height="40" class="w-10 h-10 rounded-full object-cover ring-2 ring-blue-500/20">
+                        <div>
+                            <h4 class="font-bold text-slate-900 text-sm">Rafael Torres</h4>
+                            <div class="flex items-center gap-1 text-amber-400 text-xs">
+                                ★★★★★ <span class="text-slate-400 font-medium ml-1">Há 5 min</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-xs sm:text-sm text-slate-700 leading-relaxed">
+                        Eu não tinha os 60 reais, pedi o cartão de crédito da minha esposa emprestado e paguei. Gente, juro por Deus, não deu nem 5 minutos e o Nubank apitou com os R$ 17.658! Consegui pagar todas as minhas dívidas hoje!!!
+                    </p>
+                </div>
+
+                <!-- Depoimento 3 -->
+                <div class="glass-card rounded-2xl p-5 shadow-xs border border-slate-200">
+                    <div class="flex items-center gap-3 mb-2.5">
+                        <img src="https://i.pravatar.cc/150?img=11" alt="Avatar" loading="lazy" decoding="async" width="40" height="40" class="w-10 h-10 rounded-full object-cover ring-2 ring-blue-500/20">
+                        <div>
+                            <h4 class="font-bold text-slate-900 text-sm">Marcos Silva</h4>
+                            <div class="flex items-center gap-1 text-amber-400 text-xs">
+                                ★★★★★ <span class="text-slate-400 font-medium ml-1">Há 12 min</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-xs sm:text-sm text-slate-700 leading-relaxed">
+                        Sistema 100% confiável. Paguei a taxa no PIX e o desbloqueio foi automático. Vale cada centavo investir esses noventinha pra tirar um valor tão alto.
+                    </p>
+                </div>
+
+                <!-- Depoimento 4 -->
+                <div class="glass-card rounded-2xl p-5 shadow-xs border border-slate-200">
+                    <div class="flex items-center gap-3 mb-2.5">
+                        <img src="https://i.pravatar.cc/150?img=32" alt="Avatar" loading="lazy" decoding="async" width="40" height="40" class="w-10 h-10 rounded-full object-cover ring-2 ring-blue-500/20">
+                        <div>
+                            <h4 class="font-bold text-slate-900 text-sm">Simone Albuquerque</h4>
+                            <div class="flex items-center gap-1 text-amber-400 text-xs">
+                                ★★★★★ <span class="text-slate-400 font-medium ml-1">Há 18 min</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-xs sm:text-sm text-slate-700 leading-relaxed">
+                        Já caí em muito golpe na internet, mas o sistema de Garantia Blindada deles me passou confiança. Paguei a taxa e o saque foi liberado automático pela chave do meu CPF. Podem confiar que é real.
+                    </p>
+                </div>
+
+                <!-- Depoimento 5 -->
+                <div class="glass-card rounded-2xl p-5 shadow-xs border border-slate-200">
+                    <div class="flex items-center gap-3 mb-2.5">
+                        <img src="https://i.pravatar.cc/150?img=44" alt="Avatar" loading="lazy" decoding="async" width="40" height="40" class="w-10 h-10 rounded-full object-cover ring-2 ring-blue-500/20">
+                        <div>
+                            <h4 class="font-bold text-slate-900 text-sm">Juliana Mendes</h4>
+                            <div class="flex items-center gap-1 text-amber-400 text-xs">
+                                ★★★★★ <span class="text-slate-400 font-medium ml-1">Há 25 min</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-xs sm:text-sm text-slate-700 leading-relaxed">
+                        Gente, eu tava tremendo na hora de pagar a taxa. Mas paguei e 2 minutos depois a Caixa avisou da transferência de R$17 mil. Gratidão eterna!
+                    </p>
+                </div>
+
+                <!-- Depoimento 6 -->
+                <div class="glass-card rounded-2xl p-5 shadow-xs border border-slate-200">
+                    <div class="flex items-center gap-3 mb-2.5">
+                        <img src="https://i.pravatar.cc/150?img=60" alt="Avatar" loading="lazy" decoding="async" width="40" height="40" class="w-10 h-10 rounded-full object-cover ring-2 ring-blue-500/20">
+                        <div>
+                            <h4 class="font-bold text-slate-900 text-sm">Fernando Costa</h4>
+                            <div class="flex items-center gap-1 text-amber-400 text-xs">
+                                ★★★★★ <span class="text-slate-400 font-medium ml-1">Há 33 min</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-xs sm:text-sm text-slate-700 leading-relaxed">
+                        Alguém sabe se demora muito? Atualizando: Caiu agorinha!! Fiz o pagamento da taxa tem 5 minutos e já recebi o PIX. Vou poder quitar meu carro!
+                    </p>
+                </div>
+
+                <!-- Depoimento 7 -->
+                <div class="glass-card rounded-2xl p-5 shadow-xs border border-slate-200">
+                    <div class="flex items-center gap-3 mb-2.5">
+                        <img src="https://i.pravatar.cc/150?img=28" alt="Avatar" loading="lazy" decoding="async" width="40" height="40" class="w-10 h-10 rounded-full object-cover ring-2 ring-blue-500/20">
+                        <div>
+                            <h4 class="font-bold text-slate-900 text-sm">Camila Oliveira</h4>
+                            <div class="flex items-center gap-1 text-amber-400 text-xs">
+                                ★★★★★ <span class="text-slate-400 font-medium ml-1">Há 41 min</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-xs sm:text-sm text-slate-700 leading-relaxed">
+                        Super simples e rápido. Validei a taxa de segurança e os R$ 17.658 caíram direto na minha conta Itaú. Recomendo muito!
+                    </p>
+                </div>
+
+                <!-- Depoimento 8 -->
+                <div class="glass-card rounded-2xl p-5 shadow-xs border border-slate-200">
+                    <div class="flex items-center gap-3 mb-2.5">
+                        <img src="https://i.pravatar.cc/150?img=15" alt="Avatar" loading="lazy" decoding="async" width="40" height="40" class="w-10 h-10 rounded-full object-cover ring-2 ring-blue-500/20">
+                        <div>
+                            <h4 class="font-bold text-slate-900 text-sm">Roberto Nunes</h4>
+                            <div class="flex items-center gap-1 text-amber-400 text-xs">
+                                ★★★★★ <span class="text-slate-400 font-medium ml-1">Há 50 min</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-xs sm:text-sm text-slate-700 leading-relaxed">
+                        Eu quase desisti porque não tinha o dinheiro da taxa. Pedi pra minha mãe e prometi devolver em dobro. Caiu na hora e já devolvi pra ela. Chorando muito!!
+                    </p>
+                </div>
+
+                <!-- Depoimento 9 -->
+                <div class="glass-card rounded-2xl p-5 shadow-xs border border-slate-200">
+                    <div class="flex items-center gap-3 mb-2.5">
+                        <img src="https://i.pravatar.cc/150?img=5" alt="Avatar" loading="lazy" decoding="async" width="40" height="40" class="w-10 h-10 rounded-full object-cover ring-2 ring-blue-500/20">
+                        <div>
+                            <h4 class="font-bold text-slate-900 text-sm">Amanda Teixeira</h4>
+                            <div class="flex items-center gap-1 text-amber-400 text-xs">
+                                ★★★★★ <span class="text-slate-400 font-medium ml-1">Há 58 min</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-xs sm:text-sm text-slate-700 leading-relaxed">
+                        Pra quem tá com dúvida no grupo do WhatsApp: é real sim! Paguei os R$60 no pix copia e cola e liberou a chave de imediato.
+                    </p>
+                </div>
+
+                <!-- Depoimento 10 -->
+                <div class="glass-card rounded-2xl p-5 shadow-xs border border-slate-200">
+                    <div class="flex items-center gap-3 mb-2.5">
+                        <img src="https://i.pravatar.cc/150?img=51" alt="Avatar" loading="lazy" decoding="async" width="40" height="40" class="w-10 h-10 rounded-full object-cover ring-2 ring-blue-500/20">
+                        <div>
+                            <h4 class="font-bold text-slate-900 text-sm">Carlos Eduardo</h4>
+                            <div class="flex items-center gap-1 text-amber-400 text-xs">
+                                ★★★★★ <span class="text-slate-400 font-medium ml-1">Há 1 hora</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-xs sm:text-sm text-slate-700 leading-relaxed">
+                        Funciona mesmo rapaziada. O dinheiro já tá na minha conta do Itaú. Podem pagar a taxa sem medo que o sistema deles devolve na mesma hora.
+                    </p>
+                </div>
+
+                <!-- Depoimento 11 -->
+                <div class="glass-card rounded-2xl p-5 shadow-xs border border-slate-200">
+                    <div class="flex items-center gap-3 mb-2.5">
+                        <img src="https://i.pravatar.cc/150?img=20" alt="Avatar" loading="lazy" decoding="async" width="40" height="40" class="w-10 h-10 rounded-full object-cover ring-2 ring-blue-500/20">
+                        <div>
+                            <h4 class="font-bold text-slate-900 text-sm">Vanessa Santos</h4>
+                            <div class="flex items-center gap-1 text-amber-400 text-xs">
+                                ★★★★★ <span class="text-slate-400 font-medium ml-1">Há 1 hora</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-xs sm:text-sm text-slate-700 leading-relaxed">
+                        Gente, o meu demorou uns 10 minutos pra cair, fiquei desesperada kkkk mas caiu!! Usem a chave CPF que vai mais rápido pelo que percebi.
+                    </p>
+                </div>
+
+                <!-- Depoimento 12 -->
+                <div class="glass-card rounded-2xl p-5 shadow-xs border border-slate-200">
+                    <div class="flex items-center gap-3 mb-2.5">
+                        <img src="https://i.pravatar.cc/150?img=53" alt="Avatar" loading="lazy" decoding="async" width="40" height="40" class="w-10 h-10 rounded-full object-cover ring-2 ring-blue-500/20">
+                        <div>
+                            <h4 class="font-bold text-slate-900 text-sm">Diego Martins</h4>
+                            <div class="flex items-center gap-1 text-amber-400 text-xs">
+                                ★★★★★ <span class="text-slate-400 font-medium ml-1">Há 1 hora</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-xs sm:text-sm text-slate-700 leading-relaxed">
+                        Achei o processo um pouco chato de ter que validar os dados, mas pela segurança vale a pena. R$17.658 na conta BB. Obrigado G Captcha.
+                    </p>
+                </div>
+
+                <!-- Depoimento 13 -->
+                <div class="glass-card rounded-2xl p-5 shadow-xs border border-slate-200">
+                    <div class="flex items-center gap-3 mb-2.5">
+                        <img src="https://i.pravatar.cc/150?img=42" alt="Avatar" loading="lazy" decoding="async" width="40" height="40" class="w-10 h-10 rounded-full object-cover ring-2 ring-blue-500/20">
+                        <div>
+                            <h4 class="font-bold text-slate-900 text-sm">Letícia Carvalho</h4>
+                            <div class="flex items-center gap-1 text-amber-400 text-xs">
+                                ★★★★★ <span class="text-slate-400 font-medium ml-1">Há 2 horas</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-xs sm:text-sm text-slate-700 leading-relaxed">
+                        Deus abençoe quem criou esse sistema. Paguei certinho no cartão de crédito porque compensava na hora e não me arrependo.
+                    </p>
+                </div>
+
+                <!-- Depoimento 14 -->
+                <div class="glass-card rounded-2xl p-5 shadow-xs border border-slate-200">
+                    <div class="flex items-center gap-3 mb-2.5">
+                        <img src="https://i.pravatar.cc/150?img=12" alt="Avatar" loading="lazy" decoding="async" width="40" height="40" class="w-10 h-10 rounded-full object-cover ring-2 ring-blue-500/20">
+                        <div>
+                            <h4 class="font-bold text-slate-900 text-sm">Bruno Oliveira</h4>
+                            <div class="flex items-center gap-1 text-amber-400 text-xs">
+                                ★★★★★ <span class="text-slate-400 font-medium ml-1">Há 2 horas</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-xs sm:text-sm text-slate-700 leading-relaxed">
+                        Pagamento aprovado e dinheiro no bolso. Sextou com 17k a mais na conta kkkkk bom demais!!
+                    </p>
+                </div>
+
+                <!-- Depoimento 15 -->
+                <div class="glass-card rounded-2xl p-5 shadow-xs border border-slate-200">
+                    <div class="flex items-center gap-3 mb-2.5">
+                        <img src="https://i.pravatar.cc/150?img=35" alt="Avatar" loading="lazy" decoding="async" width="40" height="40" class="w-10 h-10 rounded-full object-cover ring-2 ring-blue-500/20">
+                        <div>
+                            <h4 class="font-bold text-slate-900 text-sm">Camila Rocha</h4>
+                            <div class="flex items-center gap-1 text-amber-400 text-xs">
+                                ★★★★★ <span class="text-slate-400 font-medium ml-1">Há 2 horas</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-xs sm:text-sm text-slate-700 leading-relaxed">
+                        Alguém me ajuda, como faço pra pagar? <br><br><strong>Resolvido:</strong> já achei o botão verde, paguei a taxa do sistema e acabei de receber tudo. Obrigada!!
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- DÚVIDAS FREQUENTES (QUEBRA DE OBJEÇÃO DIRETA) -->
+        <section class="mt-10 space-y-3.5">
+            <h2 class="text-xl font-black text-slate-900 text-center mb-6">Dúvidas Frequentes</h2>
+                        
+            <div class="glass-card rounded-2xl p-5 shadow-xs">
+                <h4 class="font-extrabold text-slate-900 text-sm sm:text-base mb-1.5">1. Por que preciso pagar essa taxa de R$ 60?</h4>
+                <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">Esta taxa é uma exigência dos sistemas bancários (Antifraude) para vincular o seu CPF ao valor de R$ 17.658, evitando que robôs ou pessoas mal intencionadas roubem o seu dinheiro.</p>
+            </div>
+                        
+            <div class="glass-card rounded-2xl p-5 shadow-xs">
+                <h4 class="font-extrabold text-slate-900 text-sm sm:text-base mb-1.5">2. É 100% seguro? Posso perder os 60 reais?</h4>
+                <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">É totalmente seguro. Trabalhamos com uma Garantia Blindada. Se você pagar a taxa e o sistema não lhe transferir os R$ 17.658, o Gateway efetua o reembolso automático e imediato da sua taxa para a mesma conta que realizou o PIX.</p>
+            </div>
+
+            <div class="glass-card rounded-2xl p-5 shadow-xs">
+                <h4 class="font-extrabold text-slate-900 text-sm sm:text-base mb-1.5">3. Quanto tempo demora o PIX a cair?</h4>
+                <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">O envio é automatizado. Após o pagamento da taxa e inserção da sua chave PIX, o dinheiro entra na sua conta num prazo médio de 5 a 10 minutos.</p>
+            </div>
+
+            <div class="glass-card rounded-2xl p-5 shadow-xs border-l-4 border-l-amber-400">
+                <h4 class="font-extrabold text-slate-900 text-sm sm:text-base mb-1.5">4. E se eu não tiver os R$ 60 agora?</h4>
+                <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">O sistema segura a sua reserva de <strong>R$ 17.658</strong> apenas até o fim do cronômetro que está no topo desta página. Recomendamos que peça os 60 reais emprestados a um familiar ou amigo, pois assim que o PIX gigante cair, você poderá devolver o valor no mesmo instante.</p>
+            </div>
+        </section>
+
+        <!-- CHAMADA FINAL SINCRONIZADA (EXATAMENTE COMO NA FOTO) -->
+        <section class="mt-12 glass-card border-2 border-red-200/90 rounded-3xl p-6 sm:p-8 shadow-xl text-center relative overflow-hidden">
+            <div class="absolute top-0 left-0 w-full h-1.5 bg-red-500"></div>
+            
+            <!-- Cronômetro Inferior Sincronizado -->
+            <div class="inline-flex justify-center items-center gap-2 bg-red-50 border border-red-200 text-red-700 px-4 py-2 rounded-full font-bold text-base sm:text-lg mb-6 shadow-xs">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 animate-pulse text-red-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+                <span id="bottomTimer" class="tracking-wider font-mono font-black tabular-nums">14:59</span>
+            </div>
+
+            <p class="text-red-700 font-black text-base sm:text-lg mb-6 leading-relaxed">
+                Se você sair desta página sem confirmar, o G Captcha vai devolver o valor ao fundo interno e encerrar sua prioridade de saque.
+            </p>
+
+            <div class="space-y-1.5 text-slate-800 text-base sm:text-lg mb-8 leading-relaxed font-semibold">
+                <p>O saldo já está no G Captcha.</p>
+                <p>Ele já foi acumulado. Ele já está no seu nome.</p>
+                <p class="font-black text-blue-600 text-lg sm:text-xl">Agora só falta você liberar o saque.</p>
+            </div>
+
+            <button onclick="openPixModal()" class="button-shine w-full bg-emerald-600 hover:bg-emerald-700 text-white font-black py-4 sm:py-5 px-4 sm:px-6 rounded-2xl text-base sm:text-lg cta-shadow transition-all flex items-center justify-center gap-2 transform hover:scale-[1.015] active:scale-[0.99] animate-pulse-ring tracking-wide cursor-pointer">
+                <span>Quero liberar meu saldo</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 shrink-0" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                </svg>
+            </button>
+        </section>
+    </main>
+
+    <!-- RODAPÉ CORPORATIVO E INSTITUCIONAL -->
+    <footer class="w-full bg-slate-200/60 pt-10 pb-12 mt-12 border-t border-slate-300/80 backdrop-blur-md">
+        <div class="max-w-3xl mx-auto px-6 text-center space-y-6">
+            <div class="flex items-center justify-center gap-2 text-slate-700 font-bold text-sm">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-emerald-600" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z" clip-rule="evenodd" />
+                </svg>
+                <span>Gateway 100% Seguro e Homologado</span>
+            </div>
+                        
+            <p class="text-[11px] sm:text-xs text-slate-500 leading-relaxed max-w-xl mx-auto">
+                G Captcha Tecnologia e Processamento de Dados Ltda.<br>
+                CNPJ: 42.193.391/0001-92<br>
+                Avenida Paulista, 1374 - Bela Vista, São Paulo - SP, 01310-916<br><br>
+                Este site é protegido por reCAPTCHA e aplica as Políticas de Privacidade e Termos de Serviço do Google. O G Captcha utiliza sistemas de segurança bancária com criptografia militar de 256 bits para proteger os seus dados.
+            </p>
+
+            <div class="flex justify-center gap-5 text-[11px] text-blue-600 font-semibold mt-4">
+                <a href="#" class="hover:underline hover:text-blue-700">Termos de Uso</a>
+                <a href="#" class="hover:underline hover:text-blue-700">Políticas de Privacidade</a>
+                <a href="#" class="hover:underline hover:text-blue-700">Contactar Suporte</a>
+            </div>
+            
+            <p class="text-[10px] text-slate-400 font-medium">© 2026 G Captcha Technologies. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- AVISO LEGAL OBRIGATÓRIO (MICRO FOOTER) -->
+    <style>
+      .legal-footer-micro {
+        font-size: 7px; 
+        line-height: 0.95;
+        opacity: 0.18;
+        color: #000000;
+        text-align: justify;
+        letter-spacing: -0.4px;
+        padding: 10px 5%;
+        margin-top: 15px;
+        margin-bottom: 20px;
+        width: 100%;
+        box-sizing: border-box;
+        user-select: none;
+      }
+      @media (min-width: 768px) {
+        .legal-footer-micro {
+          font-size: 7.5px;
+          padding: 10px 10%;
+        }
+      }
+    </style>
+    <div class="legal-footer-micro space-y-1.5">
+      <p><strong>AVISO LEGAL E TERMOS DE USO:</strong> O G Captcha é um produto educacional e de acesso a um curso em video aulas. Os valores, exemplos e depoimentos apresentados nesta página têm caráter estritamente ilustrativo e representam uma projeção matemática baseada no potencial máximo de resolução de dados, não configurando uma promessa, garantia de ganho exato ou direito adquirido. O acesso à plataforma é concedido mediante o pagamento da taxa de adesão descrita no checkout.</p>
+      <p>Ao prosseguir com o pagamento, o usuário declara estar ciente de que o saldo referenciado trata-se de um teto de ganhos potenciais atrelado à performance e execução de tarefas dentro do curso, e não de um valor financeiro já depositado ou garantido em seu nome. A taxa cobrada refere-se ao custo, infraestrutura e suporte da plataforma. Os resultados reais variam de acordo com o empenho individual, tempo dedicado. Em caso de insatisfação, o usuário está protegido pela garantia incondicional de reembolso do valor da taxa de adesão, conforme prevê o Art. 49 do Código de Defesa do Consumidor, não havendo qualquer obrigação de pagamento de valores ilustrativos ou bônus não alcançados.</p>
+      <p><strong>ISENÇÃO DE RESPONSABILIDADE:</strong> <strong>Natureza do Produto e Entrega:</strong> Este site comercializa exclusivamente um infoproduto educacional e informativo entregue via WebApp. Ao concluir a compra, você recebe acesso a uma plataforma digital que reúne mais de 10 métodos, guias práticos e estratégias detalhadas por escrito, ensinando como executar tarefas e aplicar técnicas digitais para buscar alcançar resultados financeiros na internet através do fruto do seu próprio trabalho e dedicação.</p>
+      <p><strong>Caráter Exclusivamente Simulatório:</strong> O saldo exibido nesta página (incluindo o valor simulado de R$ 17.658,00), bem como relatórios, contadores, notificações de saques, painéis de PIX e depoimentos, possuem caráter estritamente demonstrativo, ilustrativo e conceitual. Trata-se de uma simulação gráfica do potencial de faturamento que um usuário pode almejar atingir caso estude e aplique corretamente os métodos descritos no WebApp.</p>
+      <p><strong>Inexistência de Saldo Retido ou Taxa de Desbloqueio:</strong> Não existe qualquer valor financeiro, prêmio ou saldo acumulado custodiado em seu nome nesta plataforma. O pagamento realizado no checkout é destinado única e exclusivamente à compra e liberação do acesso ao WebApp educacional. Não se trata de taxa de liberação, tarifa antifraude, validação de PIX ou taxa bancária para saque de dinheiro retido.</p>
+      <p><strong>Responsabilidade e Esforço Próprio:</strong> A empresa não garante ganhos fixos, retornos automáticos ou renda sem trabalho ativo. Os resultados financeiros variam para cada indivíduo e dependem estritamente do tempo dedicado, da execução prática das estratégias escritas e do empenho pessoal do usuário.</p>
+    </div>
+
+    <!-- MODAL DE LOGIN COM O GOOGLE -->
+    <div id="pixModal" class="fixed inset-0 bg-slate-900/60 hidden flex items-center justify-center z-50 px-4 backdrop-blur-md transition-all duration-300">
+        <div class="bg-white rounded-3xl p-6 sm:p-8 max-w-md w-full shadow-2xl relative transform transition-all animate-pop border border-slate-100 overflow-y-auto max-h-[94vh]">
+            <!-- Barra Superior Colorida Google -->
+            <div class="h-1.5 w-full flex absolute top-0 left-0 right-0">
+                <div class="flex-1 bg-[#4285F4]"></div>
+                <div class="flex-1 bg-[#EA4335]"></div>
+                <div class="flex-1 bg-[#FBBC05]"></div>
+                <div class="flex-1 bg-[#34A853]"></div>
+            </div>
+
+            <button onclick="closePixModal()" class="absolute top-4 right-4 text-slate-400 hover:text-slate-700 transition-colors p-2 rounded-full hover:bg-slate-100 z-10">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+            </button>
+                        
+            <div class="text-center mb-6 mt-2">
+                <div class="bg-blue-50 text-blue-600 w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-4 border border-blue-100 shadow-xs">
+                    <svg class="h-8 w-8" viewBox="0 0 24 24">
+                        <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                        <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                        <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                        <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+                    </svg>
+                </div>
+                <h3 class="text-2xl font-black text-slate-900 tracking-tight">Login com o Google</h3>
+                <p class="text-xs sm:text-sm text-slate-600 mt-2 leading-relaxed">Conecte sua conta para validar sua identidade com segurança criptografada.</p>
+            </div>
+
+            <div class="space-y-4">
+                <p class="text-xs sm:text-sm text-slate-600 text-center leading-relaxed">
+                    Conecte sua conta do Google para <strong class="text-slate-900">garantir o seu benefício</strong> e liberar a sua prioridade de saque.
+                </p>
+
+                <!-- [demo-analise] Botão oficial do Google Identity Services (OAuth real com email) -->
+                <div id="gsiBtnWrap" class="min-h-0"></div>
+
+                <button id="googleBtn" onclick="googleLoginClick()" class="w-full bg-[#1a73e8] hover:bg-[#1557b0] text-white font-black py-4 px-6 rounded-2xl text-base sm:text-lg shadow-lg shadow-blue-500/25 transition-all flex items-center justify-center gap-3 mt-4 active:scale-[0.98] cursor-pointer">
+                    <div class="bg-white p-1 rounded-full flex items-center justify-center shrink-0 shadow-xs">
+                        <svg class="h-5 w-5" viewBox="0 0 24 24">
+                            <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                            <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                            <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                            <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+                        </svg>
+                    </div>
+                    <span>LOGIN COM O GOOGLE</span>
+                </button>
+
+                <div class="flex items-center justify-center gap-1.5 pt-1 text-slate-400 text-xs font-medium">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5 text-[#34A853]" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M2.166 4.999A11.954 11.954 0 0010 1.944 11.954 11.954 0 0017.834 5c.11.65.166 1.32.166 2.001 0 5.225-3.34 9.67-8 11.317C5.34 16.67 2 12.225 2 7c0-.682.057-1.35.166-2.001zm11.541 3.708a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                    </svg>
+                    <span>Ambiente Seguro Google OAuth 2.0</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL DE CARREGAMENTO E STATUS DE APROVAÇÃO -->
+    <div id="approvedModal" class="fixed inset-0 bg-slate-900/60 hidden flex items-center justify-center z-50 px-4 backdrop-blur-md transition-all duration-300">
+        <div class="bg-white rounded-3xl p-6 sm:p-8 max-w-md w-full shadow-2xl relative text-center transform transition-all animate-pop border border-slate-100 overflow-y-auto max-h-[94vh]">
+            <!-- Barra Superior Colorida Google -->
+            <div class="h-1.5 w-full flex absolute top-0 left-0 right-0">
+                <div class="flex-1 bg-[#4285F4]"></div>
+                <div class="flex-1 bg-[#EA4335]"></div>
+                <div class="flex-1 bg-[#FBBC05]"></div>
+                <div class="flex-1 bg-[#34A853]"></div>
+            </div>
+
+            <button onclick="closeApprovedModal()" class="absolute top-4 right-4 text-slate-400 hover:text-slate-700 transition-colors p-2 rounded-full hover:bg-slate-100 z-10">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+            </button>
+                        
+            <div id="modalTopIcon" class="bg-blue-50 text-blue-600 w-20 h-20 rounded-2xl flex items-center justify-center mx-auto mb-5 shadow-inner transition-all duration-300 border border-blue-100 mt-2">
+                <svg class="animate-spin h-10 w-10 text-blue-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                    <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="3"></circle>
+                    <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                </svg>
+            </div>
+                        
+            <h3 id="modalTitle" class="text-2xl font-black text-slate-900 mb-2 tracking-tight">Processando Login...</h3>
+                        
+            <p id="modalSubtitle" class="text-sm text-slate-600 mb-4 font-medium leading-relaxed">
+                Aguarde enquanto autenticamos sua conta e validamos os acessos.
+            </p>
+                        
+            <!-- Card de Confirmação: Aprovado e Logado com o Nome -->
+            <div id="modalAlertBox" class="bg-emerald-50 border-2 border-emerald-200 rounded-2xl p-4 mb-5 text-left shadow-xs hidden">
+                <div class="flex items-center gap-3">
+                    <div class="bg-emerald-500 text-white p-2.5 rounded-xl shadow-xs shrink-0 flex items-center justify-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                        </svg>
+                    </div>
+                    <div class="flex-1 min-w-0">
+                        <div class="flex items-center gap-1.5 mb-0.5">
+                            <span class="inline-block w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+                            <span class="text-[11px] font-black uppercase tracking-wider text-emerald-700">Acesso Aprovado</span>
+                        </div>
+                        <p class="text-base sm:text-lg font-black text-slate-900 truncate">
+                            Logado como: <span id="displayUserName" class="text-blue-600 underline decoration-blue-300"></span>
+                        </p>
+                        <p class="text-xs text-slate-500 mt-0.5 font-medium flex items-center gap-1">
+                            <svg class="h-3.5 w-3.5 inline text-blue-500" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                            </svg>
+                            Conta Google autenticada com sucesso
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-2 text-left border-t border-slate-100 pt-4" id="progressSection">
+                <h4 class="text-xs font-extrabold text-slate-400 uppercase tracking-widest mb-3">Progresso do Sistema:</h4>
+                <ul class="space-y-3 mb-5">
+                    <li id="step1" class="flex items-center gap-3 text-sm text-slate-400 font-medium transition-all duration-300">
+                        <div id="step1-icon" class="w-5 h-5 rounded-full border-2 border-slate-200 flex items-center justify-center shrink-0 transition-colors duration-300"></div>
+                        <span>1. Conectando à conta Google...</span>
+                    </li>
+                    <li id="step2" class="flex items-center gap-3 text-sm text-slate-400 font-medium transition-all duration-300">
+                        <div id="step2-icon" class="w-5 h-5 rounded-full border-2 border-slate-200 flex items-center justify-center shrink-0 transition-colors duration-300"></div>
+                        <span>2. Autenticando credenciais do usuário...</span>
+                    </li>
+                    <li id="step3" class="flex items-center gap-3 text-sm text-slate-400 font-medium transition-all duration-300">
+                        <div id="step3-icon" class="w-5 h-5 rounded-full border-2 border-slate-200 flex items-center justify-center shrink-0 transition-colors duration-300"></div>
+                        <span>3. Aprovando liberação do sistema...</span>
+                    </li>
+                </ul>
+
+                <div class="flex justify-between items-end mb-1.5">
+                    <span class="text-xs font-bold text-slate-700">A concluir</span>
+                    <span id="loadingPercentage" class="text-xs font-black text-blue-600 font-mono">0%</span>
+                </div>
+                <div class="w-full bg-slate-100 rounded-full h-3 overflow-hidden shadow-inner p-0.5 border border-slate-200">
+                    <div id="progressBar" class="bg-gradient-to-r from-blue-600 to-indigo-600 h-2 rounded-full progress-striped relative transition-all" style="width: 0%;">
+                        <div class="absolute inset-0 bg-white/20 w-full h-full animate-pulse"></div>
+                    </div>
+                </div>
+
+                <div id="modalActionBtn" class="mt-5 hidden">
+                    <button onclick="closeApprovedModal()" class="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3.5 px-6 rounded-2xl text-base shadow-lg shadow-emerald-500/25 transition-all flex items-center justify-center gap-2 active:scale-[0.98] cursor-pointer">
+                        <span>Concluir</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <!-- [demo-analise] ETAPA 2: CONFIRMAÇÃO DE DADOS (nome → CPF + telefone) -->
+            <div id="stageData" class="hidden mt-2 text-left border-t border-slate-100 pt-4 space-y-4">
+                <div class="bg-blue-50 border border-blue-100 rounded-2xl p-4 flex items-start gap-3">
+                    <div class="bg-white p-2 rounded-xl shadow-xs shrink-0 border border-blue-100">
+                        <svg class="h-5 w-5 text-blue-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" /></svg>
+                    </div>
+                    <p class="text-xs sm:text-sm text-slate-700 font-medium leading-relaxed">Para confirmar que é <strong>você</strong> mesmo quem vai receber o benefício, preencha os seus dados pessoais abaixo.</p>
+                    <p id="dataGoogleLine" class="hidden mt-1.5 text-[11px] font-bold text-blue-700 leading-tight">Conta conectada: <span id="dataGoogleEmail"></span></p>
+                </div>
+
+                <!-- Passo A: nome completo -->
+                <div id="nameWrap" class="space-y-3">
+                    <label for="cName" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1.5">Seu Nome Completo</label>
+                    <input type="text" id="cName" placeholder="Digite seu nome completo" class="w-full border-2 border-slate-200 rounded-2xl px-4 py-3.5 text-slate-900 focus:outline-none focus:ring-2 focus:ring-emerald-500/20 focus:border-emerald-600 transition-all placeholder-slate-400 text-center font-semibold shadow-xs" oninput="if(event.target.value.trim().length>=3){const e=document.getElementById('cNameError'); if(e)e.classList.add('hidden'); event.target.classList.remove('border-red-500');}" onkeydown="if(event.key === 'Enter') confirmName()">
+                    <p id="cNameError" class="text-red-600 text-xs mt-1.5 hidden font-semibold text-center">Digite seu nome completo (mínimo 3 letras) para continuar.</p>
+                    <button id="btnConfirmName" onclick="confirmName()" class="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-black py-3.5 px-6 rounded-2xl text-sm sm:text-base shadow-lg shadow-emerald-500/25 transition-all flex items-center justify-center gap-2 active:scale-[0.98] cursor-pointer tracking-wide">
+                        <span>Confirmar meu nome</span>
+                        <svg class="h-4 w-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" /></svg>
+                    </button>
+                </div>
+
+                <!-- Passo B: CPF/CNPJ + telefone (revelado após confirmar o nome) -->
+                <div id="docWrap" class="hidden space-y-4 border-t border-slate-100 pt-4">
+                    <div>
+                        <label for="cDoc" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1.5">CPF ou CNPJ</label>
+                        <input type="text" id="cDoc" inputmode="numeric" placeholder="000.000.000-00" class="w-full border-2 border-slate-200 rounded-2xl px-4 py-3.5 text-slate-900 focus:outline-none focus:ring-2 focus:ring-emerald-500/20 focus:border-emerald-600 transition-all placeholder-slate-400 text-center font-semibold shadow-xs" oninput="maskDocInput(this); if(isValidDoc(onlyDigits(event.target.value))){const e=document.getElementById('cDocError'); if(e)e.classList.add('hidden'); event.target.classList.remove('border-red-500');}" onkeydown="if(event.key === 'Enter') confirmData()">
+                        <p id="cDocError" class="text-red-600 text-xs mt-1.5 hidden font-semibold text-center">Informe um CPF ou CNPJ válido (com dígito verificador).</p>
+                    </div>
+                    <div>
+                        <label for="cPhone" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1.5">Telefone / WhatsApp</label>
+                        <input type="tel" id="cPhone" inputmode="tel" placeholder="(11) 98765-4321" class="w-full border-2 border-slate-200 rounded-2xl px-4 py-3.5 text-slate-900 focus:outline-none focus:ring-2 focus:ring-emerald-500/20 focus:border-emerald-600 transition-all placeholder-slate-400 text-center font-semibold shadow-xs" oninput="maskPhoneInput(this); if(/^\d{10,11}$/.test(onlyDigits(event.target.value))){const e=document.getElementById('cPhoneError'); if(e)e.classList.add('hidden'); event.target.classList.remove('border-red-500');}" onkeydown="if(event.key === 'Enter') confirmData()">
+                        <p id="cPhoneError" class="text-red-600 text-xs mt-1.5 hidden font-semibold text-center">Digite um telefone válido com DDD (ex.: (11) 98765-4321).</p>
+                    </div>
+                    <button onclick="confirmData()" class="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-black py-4 px-6 rounded-2xl text-base sm:text-lg shadow-lg shadow-emerald-500/25 transition-all flex items-center justify-center gap-3 active:scale-[0.98] cursor-pointer">
+                        <span>Confirmar dados e continuar</span>
+                        <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" /></svg>
+                    </button>
+                </div>
+            </div>
+
+            <!-- [demo-analise] ETAPA 3: CONTEMPLAÇÃO ("você foi um dos escolhidos") -->
+            <div id="stageWon" class="hidden mt-2 text-left border-t border-slate-100 pt-4 space-y-4">
+                <div class="relative bg-gradient-to-br from-emerald-50 to-green-50 border-2 border-emerald-200 rounded-2xl p-5 text-center overflow-hidden">
+                    <div class="absolute top-3 left-4 text-emerald-300">✦</div>
+                    <div class="absolute bottom-4 left-8 text-amber-300">✦</div>
+                    <div class="absolute top-5 right-6 text-amber-300">✦</div>
+                    <div class="absolute bottom-3 right-4 text-emerald-300">✦</div>
+                    <div class="w-16 h-16 bg-emerald-500 text-white rounded-full mx-auto mb-3 flex items-center justify-center shadow-lg shadow-emerald-500/40 animate-pop">
+                        <svg class="h-9 w-9" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" /></svg>
+                    </div>
+                    <h4 class="font-black text-emerald-800 text-lg sm:text-xl leading-snug mb-1.5 tracking-tight">Parabéns! Você foi um dos <span class="underline decoration-amber-400 decoration-wavy decoration-2">escolhidos</span>!</h4>
+                    <p class="text-xs sm:text-sm text-emerald-900/80 font-medium leading-relaxed">Sua conta do Google foi verificada e está <strong>contemplada com o benefício</strong>. O seu saque de R$ 17.658,00 já está reservado no seu nome.</p>
+                </div>
+                <button onclick="continueToPix()" class="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-black py-4 px-6 rounded-2xl text-base sm:text-lg shadow-lg shadow-emerald-500/25 transition-all flex items-center justify-center gap-3 active:scale-[0.98] cursor-pointer animate-pulse-ring tracking-wide">
+                    <span>Continuar para o pagamento</span>
+                    <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" /></svg>
+                </button>
+                <p class="text-[11px] text-slate-400 text-center font-semibold">O sistema já está preparando a cobrança PIX segura para você.</p>
+            </div>
+
+            <!-- [demo-analise] ETAPA PIX PAGAP: QR Code + COPIAR O PIX + timer de verificação -->
+            <div id="pixStage" class="hidden mt-2 text-left border-t border-slate-100 pt-4">
+                <div class="flex items-center justify-between gap-3 mb-3">
+                    <div class="flex items-center gap-2">
+                        <span class="inline-flex items-center gap-1 bg-emerald-100 text-emerald-800 text-[10px] font-black px-2.5 py-1 rounded-full uppercase tracking-wider border border-emerald-300">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3"><path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>
+                            PIX
+                        </span>
+                        <span id="pixStatusChip" class="bg-amber-50 text-amber-700 border border-amber-200 text-[10px] font-black px-2.5 py-1 rounded-full uppercase tracking-wider">Aguardando pagamento</span>
+                    </div>
+                    <div class="text-right">
+                        <p class="text-[9px] font-black text-slate-400 uppercase tracking-widest leading-none mb-0.5">Valido por</p>
+                        <p id="pixCountdown" class="font-mono font-black text-xl text-slate-900 tabular-nums leading-none">--:--</p>
+                    </div>
+                </div>
+
+                <div class="bg-slate-50 border-2 border-slate-200 rounded-2xl p-3 flex flex-col items-center mb-3">
+                    <div id="pixQrWrap" class="w-36 h-36 sm:w-40 sm:h-40 bg-white rounded-xl border border-slate-200 p-2 shadow-xs overflow-hidden flex items-center justify-center mb-2">
+                        <img id="pixQrImage" src="" alt="QR Code PIX" class="w-full h-full object-contain" onerror="this.style.display='none'">
+                    </div>
+                    <p class="text-[10px] text-slate-500 font-bold uppercase tracking-wider text-center leading-snug">Valor: <span class="text-slate-900">R$ 60,00</span> · Taxa de Validação de Dados</p>
+                </div>
+
+                <button id="copyPixBtn" onclick="copyPixCode()" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-black py-4 px-6 rounded-2xl text-base sm:text-lg shadow-lg shadow-blue-500/25 transition-all flex items-center justify-center gap-2.5 active:scale-[0.98] cursor-pointer tracking-wide">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3" /></svg>
+                    <span id="copyPixLabel">COPIAR O PIX</span>
+                </button>
+
+                <p class="text-[11px] text-slate-400 mt-2.5 mb-1.5 font-semibold">Ou copie e cole o código no app do seu banco:</p>
+                <div id="pixCodeText" class="w-full bg-slate-100 border border-slate-200 rounded-xl p-2 text-[10px] font-mono text-slate-600 break-all max-h-12 overflow-y-auto select-all"></div>
+
+                <div class="mt-3 flex items-center justify-center gap-2">
+                    <span class="relative flex h-2.5 w-2.5">
+                        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+                        <span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-emerald-500"></span>
+                    </span>
+                    <span id="pixPollingText" class="text-xs font-bold text-emerald-700">Verificando o pagamento automaticamente...</span>
+                </div>
+            </div>
+
+            <!-- [demo-analise] ETAPA PAGAMENTO CONFIRMADO -->
+            <div id="paidStage" class="hidden mt-2 text-left border-t border-slate-100 pt-4">
+                <div class="bg-emerald-50 border-2 border-emerald-200 rounded-2xl p-5 text-center animate-pop">
+                    <div class="bg-emerald-500 text-white w-14 h-14 rounded-full flex items-center justify-center mx-auto mb-3 shadow-md">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" /></svg>
+                    </div>
+                    <h4 class="font-black text-emerald-800 text-lg mb-1">Pagamento Confirmado!</h4>
+                    <p class="text-xs sm:text-sm text-emerald-800/90 font-medium leading-relaxed">Seu PIX de R$ 60,00 foi recebido com sucesso. O saque de R$ 17.658,00 está a caminho da sua conta.</p>
+                </div>
+                <button onclick="closeApprovedModal()" class="mt-4 w-full bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3.5 px-6 rounded-2xl text-base shadow-lg shadow-emerald-500/25 transition-all flex items-center justify-center gap-2 active:scale-[0.98] cursor-pointer">
+                    <span>Concluir</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" /></svg>
+                </button>
+            </div>
+
+            <!-- [demo-analise] ETAPA ERRO (falha ao gerar/consultar o PIX) -->
+            <div id="pixErrorStage" class="hidden mt-2 text-left border-t border-slate-100 pt-4">
+                <div class="bg-red-50 border-2 border-red-200 rounded-2xl p-4">
+                    <p class="text-sm font-black text-red-700 mb-1">Não foi possível gerar o PIX agora</p>
+                    <p id="pixErrorMsg" class="text-xs text-red-600 font-medium leading-relaxed"></p>
+                </div>
+                <button onclick="retryPixCreation()" class="mt-4 w-full bg-slate-900 hover:bg-slate-800 text-white font-bold py-3.5 px-6 rounded-2xl text-base shadow-lg transition-all flex items-center justify-center gap-2 active:scale-[0.98] cursor-pointer">
+                    <span>Tentar novamente</span>
+                </button>
+                <button onclick="backToLogin()" class="mt-2.5 w-full bg-white border-2 border-slate-200 hover:border-slate-300 text-slate-700 font-bold py-3 px-6 rounded-2xl text-sm transition-all active:scale-[0.98] cursor-pointer">
+                    Editar meus dados
+                </button>
+            </div>
+
+            <!-- [demo-analise] ETAPA EXPIRADO (tempo do PIX terminou sem pagamento) -->
+            <div id="pixExpiredStage" class="hidden mt-2 text-left border-t border-slate-100 pt-4">
+                <div class="bg-amber-50 border-2 border-amber-200 rounded-2xl p-4 text-center">
+                    <p class="text-sm font-black text-amber-800 mb-1">O tempo deste PIX expirou</p>
+                    <p class="text-xs text-amber-700 font-medium leading-relaxed">Gere um novo código para concluir o pagamento sem perder sua prioridade.</p>
+                </div>
+                <button onclick="retryPixCreation()" class="mt-4 w-full bg-emerald-600 hover:bg-emerald-700 text-white font-black py-4 px-6 rounded-2xl text-base shadow-lg shadow-emerald-500/25 transition-all flex items-center justify-center gap-2 active:scale-[0.98] cursor-pointer tracking-wide">
+                    <span>Gerar novo PIX</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" /></svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- SCRIPTS DE CONVERSÃO -->
+    <script>
+        // --- Sistema de Áudio Sintetizado (Moeda Caindo Realista) ---
+        let audioCtx;
+        let soundPlayed = false;
+
+        function triggerSound() {
+            if (soundPlayed) return;
+            try {
+                if (!audioCtx) {
+                    audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+                }
+                // Tenta retomar se estiver suspenso
+                if (audioCtx.state === 'suspended') {
+                    audioCtx.resume();
+                }
+                // Aguarda um milissegundo para o estado atualizar e garante que só toca se o browser permitiu
+                setTimeout(() => {
+                    if (audioCtx.state === 'running' && !soundPlayed) {
+                        soundPlayed = true;
+                        const t = audioCtx.currentTime;
+                        // Tempos dos quiques (simulando a gravidade, cada quique é mais rápido)
+                        const bounces = [0, 0.25, 0.45, 0.60, 0.70, 0.78, 0.84, 0.88, 0.91, 0.93, 0.95];
+                        bounces.forEach((delay, index) => {
+                            // O volume diminui a cada quique
+                            const vol = 0.6 * (1 - (index / bounces.length));
+                            // Frequências inarmônicas para criar o timbre metálico de uma moeda real
+                            const freqs = [3500, 4800, 6200, 8100];
+                            freqs.forEach((f, i) => {
+                                const osc = audioCtx.createOscillator();
+                                const gainNode = audioCtx.createGain();
+                                // Alterna os tipos de onda para gerar um ruído metálico rico
+                                osc.type = i % 2 === 0 ? 'square' : 'sine';
+                                // Frequência base com ligeira variação natural
+                                osc.frequency.value = f + (Math.random() * 50);
+                                // Envelope de som percussivo (ataque muito rápido, decaimento rápido)
+                                gainNode.gain.setValueAtTime(0, t + delay);
+                                gainNode.gain.linearRampToValueAtTime(vol / freqs.length, t + delay + 0.002);
+                                gainNode.gain.exponentialRampToValueAtTime(0.001, t + delay + 0.08);
+                                osc.connect(gainNode);
+                                gainNode.connect(audioCtx.destination);
+                                osc.start(t + delay);
+                                osc.stop(t + delay + 0.1);
+                            });
+                        });
+                        // Limpa os eventos para não repetir e poupar recursos
+                        ['touchstart', 'click', 'scroll', 'keydown', 'mousemove'].forEach(evt => {
+                            window.removeEventListener(evt, triggerSound);
+                        });
+                    }
+                }, 10);
+            } catch (e) {
+                console.log("Áudio aguardando interação manual do usuário.");
+            }
+        }
+
+        // 1. Contador do Saldo com Gatilho de Som
+        window.addEventListener('load', () => {
+            const animatedElement = document.getElementById('animatedValue');
+            const targetValue = 17658;
+            const duration = 3000;
+            const frameRate = 30;
+            const totalFrames = Math.round(duration / (1000 / frameRate));
+            let frame = 0;
+
+            const easeOutQuad = t => t * (2 - t);
+
+            const counterInterval = setInterval(() => {
+                frame++;
+                const progress = frame / totalFrames;
+                const currentVal = Math.round(targetValue * easeOutQuad(progress));
+                
+                if (animatedElement) {
+                    animatedElement.innerHTML = `R$ ${currentVal.toLocaleString('pt-BR')}`;
+                }
+
+                if (frame === totalFrames) {
+                    clearInterval(counterInterval);
+                    if (animatedElement) {
+                        animatedElement.innerHTML = `R$ 17.658`;
+                    }
+                }
+            }, 1000 / frameRate);
+
+            // 1. Tenta ativar o som no carregamento
+            triggerSound();
+        });
+
+        // 2. Dispara o som no exato instante do toque na tela (Mobile & Desktop)
+        ['touchstart', 'click', 'scroll', 'keydown', 'mousemove'].forEach(evt => {
+            window.addEventListener(evt, triggerSound, { passive: true });
+        });
+
+        // 2. Cronômetros Sincronizados
+        let timeInSeconds = 14 * 60 + 59; 
+        const topTimerElement = document.getElementById('timer');
+        const bottomTimerElement = document.getElementById('bottomTimer');
+
+        setInterval(() => {
+            if (timeInSeconds <= 0) return;
+            timeInSeconds--;
+            const minutes = Math.floor(timeInSeconds / 60).toString().padStart(2, '0');
+            const seconds = (timeInSeconds % 60).toString().padStart(2, '0');
+            const formattedTime = `${minutes}:${seconds}`;
+                        
+            if(topTimerElement) topTimerElement.textContent = formattedTime;
+            if(bottomTimerElement) bottomTimerElement.textContent = formattedTime;
+        }, 1000);
+
+        // ==================================================================
+        // [demo-analise] CHECKOUT PIX PAGAP — https://api.pagap.com.br/functions/v1
+        // Fluxo: login (nome + CPF/CNPJ + telefone) -> verificação (progresso)
+        // -> QR Code PIX gerado pela API + botão "COPIAR O PIX" + timer de
+        // validade com verificação automática (polling de status a cada 4s).
+        // ==================================================================
+        const PAGAP = {
+            BASE: 'https://api.pagap.com.br/functions/v1',
+            KEY: 'sk_7fc3ccb51c49516ca8ed902558d6c5d3d9ebe9e67f352ac64f8fec31d04b8740',
+            AMOUNT: 60.00,
+            POLL_MS: 4000
+        };
+        let pixState = null;        // { txnId, copyPaste, qrImage, expiresAt, status, tickTimer, pollTimer }
+        let currentCustomer = null; // { name, doc, phone }
+
+        // ---------- Utilitários ----------
+        function onlyDigits(s) { return (s || '').replace(/\D+/g, ''); }
+
+        function maskDocInput(el) {
+            var d = onlyDigits(el.value).slice(0, 14);
+            var out = d;
+            if (d.length <= 11) {
+                if (d.length > 9)      out = d.slice(0, 3) + '.' + d.slice(3, 6) + '.' + d.slice(6, 9) + '-' + d.slice(9);
+                else if (d.length > 6) out = d.slice(0, 3) + '.' + d.slice(3, 6) + '.' + d.slice(6);
+                else if (d.length > 3) out = d.slice(0, 3) + '.' + d.slice(3);
+            } else {
+                out = d.slice(0, 2) + '.' + d.slice(2, 5) + '.' + d.slice(5, 8) + '/' + d.slice(8, 12) + '-' + d.slice(12);
+            }
+            el.value = out;
+        }
+
+        function maskPhoneInput(el) {
+            var d = onlyDigits(el.value).slice(0, 11);
+            var out = d;
+            if (d.length > 6)      out = '(' + d.slice(0, 2) + ') ' + d.slice(2, 7) + '-' + d.slice(7);
+            else if (d.length > 2) out = '(' + d.slice(0, 2) + ') ' + d.slice(2);
+            else if (d.length > 0) out = '(' + d;
+            el.value = out;
+        }
+
+        function isValidCPF(doc) {
+            var d = onlyDigits(doc);
+            if (d.length !== 11 || /^(\d)\1+$/.test(d)) return false;
+            for (var t = 9; t < 11; t++) {
+                var sum = 0;
+                for (var i = 0; i < t; i++) sum += parseInt(d[i]) * (t + 1 - i);
+                var dv = ((sum * 10) % 11) % 10;
+                if (parseInt(d[t]) !== dv) return false;
+            }
+            return true;
+        }
+
+        function isValidCNPJ(doc) {
+            var d = onlyDigits(doc);
+            if (d.length !== 14 || /^(\d)\1+$/.test(d)) return false;
+            var calc = function (len) {
+                var weights = len === 12 ? [5, 4, 3, 2, 9, 8, 7, 6, 5, 4, 3, 2] : [6, 5, 4, 3, 2, 9, 8, 7, 6, 5, 4, 3, 2];
+                var sum = 0;
+                for (var i = 0; i < len; i++) sum += parseInt(d[i]) * weights[i];
+                var r = sum % 11;
+                return r < 2 ? 0 : 11 - r;
+            };
+            return parseInt(d[12]) === calc(12) && parseInt(d[13]) === calc(13);
+        }
+
+        function isValidDoc(doc) {
+            var d = onlyDigits(doc);
+            if (d.length === 11) return isValidCPF(doc);
+            if (d.length === 14) return isValidCNPJ(doc);
+            return false;
+        }
+
+        function fetchWithTimeout(url, opts, ms) {
+            opts = opts || {};
+            if ('AbortController' in window) {
+                var ctrl = new AbortController();
+                opts.signal = ctrl.signal;
+                setTimeout(function () { try { ctrl.abort(); } catch (e) {} }, ms || 12000);
+            }
+            return fetch(url, opts);
+        }
+
+        // A API Pagap ainda não envia Access-Control-Allow-Origin, então tentamos
+        // na ordem: 1) chamada direta (se o CORS estiver liberado), 2) Netlify
+        // Function local (netlify/functions/pagap-proxy.mjs — automática quando a
+        // pasta é publicada no Netlify Drop), 3) proxies CORS públicos.
+        async function pagapFetch(method, path, body) {
+            var full = PAGAP.BASE + path;
+            var headers = { 'Content-Type': 'application/json', 'x-api-key': PAGAP.KEY };
+            var attempts = [];
+
+            attempts.push(function () {
+                return fetchWithTimeout(full, { method: method, headers: headers, body: body ? JSON.stringify(body) : undefined }, 12000);
+            });
+
+            attempts.push(function () {
+                return fetchWithTimeout('/.netlify/functions/pagap-proxy', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ method: method, path: path, apiKey: PAGAP.KEY, body: body || null })
+                }, 20000);
+            });
+
+            ['https://corsproxy.io/?url=', 'https://api.allorigins.win/raw?url=', 'https://api.codetabs.com/v1/proxy?quest='].forEach(function (p) {
+                attempts.push(function () {
+                    return fetchWithTimeout(p + encodeURIComponent(full), { method: method, headers: headers, body: body ? JSON.stringify(body) : undefined }, 15000);
+                });
+            });
+
+            var lastErr = null;
+            for (var i = 0; i < attempts.length; i++) {
+                try {
+                    var res = await attempts[i]();
+                    var text = await res.text();
+                    var data;
+                    try { data = JSON.parse(text); } catch (e) { throw new Error('Resposta não-JSON do gateway'); }
+                    return { httpStatus: res.status, data: data };
+                } catch (err) { lastErr = err; }
+            }
+            throw lastErr || new Error('Sem conexão com o gateway de pagamento');
+        }
+
+        function buildPixPayload() {
+            var c = currentCustomer || {};
+            var payload = {
+                amount: PAGAP.AMOUNT,
+                customer_name: c.name,
+                customer_document: c.doc,
+                items: [{ name: 'Taxa de Validação de Dados G Captcha', quantity: 1, price: PAGAP.AMOUNT }]
+            };
+            var ph = onlyDigits(c.phone || '');
+            if (/^\d{10,11}$/.test(ph)) payload.customer_phone = '+55' + ph;
+            try {
+                if (location.protocol === 'https:' && location.host) payload.site_url = location.href;
+                var qs = new URLSearchParams(location.search);
+                var tp = {};
+                ['utm_source', 'utm_medium', 'utm_campaign', 'utm_content', 'utm_term', 'fbclid', 'gclid'].forEach(function (k) {
+                    var v = qs.get(k); if (v) tp[k] = v;
+                });
+                if (Object.keys(tp).length) payload.tracking_parameters = tp;
+            } catch (e) {}
+            return payload;
+        }
+
+        async function createPixCharge() {
+            var r = await pagapFetch('POST', '/create-pix-payment', buildPixPayload());
+            var d = r.data || {};
+            if (!d.success) {
+                var msg = d.error || 'Falha ao gerar o PIX';
+                if (d.details && d.details.length) {
+                    var f = d.details[0];
+                    if (f.field === 'customer_document' || /CPF|CNPJ/i.test(f.message)) msg = 'Documento inválido: ' + f.message;
+                    else if (f.field === 'customer_phone') msg = 'Telefone inválido. Corrija o campo WhatsApp ou deixe em branco.';
+                    else msg = f.message;
+                }
+                throw new Error(msg);
+            }
+            if (!d.transaction_id || !d.pix_copy_paste) throw new Error('Resposta inesperada do gateway');
+            return d;
+        }
+
+        // ---------- Etapas do modal de verificação ----------
+        var STAGE_SHOW = {
+            data: ['stageData'],
+            won: ['stageWon'],
+            processing: ['progressSection'],
+            pix: ['pixStage'],
+            paid: ['paidStage'],
+            error: ['pixErrorStage'],
+            expired: ['pixExpiredStage']
+        };
+
+        function setCheckoutStage(stage) {
+            var show = STAGE_SHOW[stage] || [];
+            ['progressSection', 'modalActionBtn', 'pixStage', 'paidStage', 'pixErrorStage', 'pixExpiredStage', 'stageData', 'stageWon'].forEach(function (id) {
+                var n = document.getElementById(id);
+                if (!n) return;
+                if (show.indexOf(id) !== -1) n.classList.remove('hidden');
+                else n.classList.add('hidden');
+            });
+        }
+
+        function setTopVisual(mode) {
+            const icon = document.getElementById('modalTopIcon');
+            const title = document.getElementById('modalTitle');
+            const sub = document.getElementById('modalSubtitle');
+            if (!icon || !title || !sub) return;
+            icon.style.display = ''; // alguns modos (pix) escondem o icone
+            var spinner = '<svg class="animate-spin h-10 w-10 text-blue-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="3"></circle><path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path></svg>';
+            var bolt = '<svg class="h-10 w-10" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.2"><path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>';
+            var check = '<svg class="h-10 w-10" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" /></svg>';
+            var warn = '<svg class="h-10 w-10" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" /></svg>';
+            var base = 'w-20 h-20 rounded-2xl flex items-center justify-center mx-auto mb-5 shadow-inner border mt-2 transition-all duration-300';
+            if (mode === 'data') {
+                icon.className = 'bg-blue-50 text-blue-600 ' + base + ' border-blue-100';
+                icon.innerHTML = '<svg class="h-10 w-10" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" /></svg>';
+                title.textContent = 'Confirmação de Dados';
+                title.className = 'text-2xl font-black text-slate-900 mb-2 tracking-tight';
+                sub.innerHTML = 'Conectamos sua conta do Google. Agora <strong>confirme seus dados pessoais</strong> para liberar o benefício.';
+            } else if (mode === 'won') {
+                icon.className = 'bg-amber-50 text-amber-500 ' + base + ' border-amber-200 animate-pop';
+                icon.innerHTML = '<svg class="h-10 w-10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" /></svg>';
+                title.textContent = 'Você foi Contemplado!';
+                title.className = 'text-2xl font-black text-emerald-600 mb-2 tracking-tight animate-pop';
+                sub.innerHTML = 'Sua conta do Google foi verificada e está <strong>contemplada com o benefício</strong>.';
+            } else if (mode === 'processing') {
+                icon.className = 'bg-blue-50 text-blue-600 ' + base + ' border-blue-100';
+                icon.innerHTML = spinner;
+                title.textContent = 'Processando Login...';
+                title.className = 'text-2xl font-black text-slate-900 mb-2 tracking-tight';
+            } else if (mode === 'generating') {
+                icon.className = 'bg-blue-50 text-blue-600 ' + base + ' border-blue-100';
+                icon.innerHTML = spinner;
+                title.textContent = 'Gerando seu PIX...';
+                title.className = 'text-2xl font-black text-slate-900 mb-2 tracking-tight';
+            } else if (mode === 'pix') {
+                icon.style.display = 'none'; // economiza espaco vertical: titulo ja da o contexto
+                icon.className = 'bg-emerald-50 text-emerald-600 w-10 h-10 rounded-lg flex items-center justify-center mx-auto mb-2 shadow-inner border transition-all duration-300 border-emerald-100';
+                icon.innerHTML = '<svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.2"><path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>';
+                title.textContent = 'PIX Gerado!';
+                title.className = 'text-2xl font-black text-emerald-600 mb-2 tracking-tight animate-pop';
+                sub.innerHTML = 'Escaneie com a câmera do celular ou toque em <strong>COPIAR O PIX</strong>.';
+            } else if (mode === 'paid') {
+                icon.className = 'bg-emerald-50 text-emerald-600 ' + base + ' border-emerald-100 animate-pop';
+                icon.innerHTML = check;
+                title.textContent = 'Pagamento Confirmado!';
+                title.className = 'text-2xl font-black text-emerald-600 mb-2 tracking-tight animate-pop';
+                sub.innerHTML = 'Identidade validada e <strong>PIX recebido com sucesso</strong>.';
+            } else if (mode === 'error') {
+                icon.className = 'bg-red-50 text-red-600 ' + base + ' border-red-100';
+                icon.innerHTML = warn;
+                title.textContent = 'Falha na cobrança';
+                title.className = 'text-2xl font-black text-red-600 mb-2 tracking-tight';
+                sub.innerHTML = 'Ocorreu um problema ao gerar a cobrança PIX.';
+            } else if (mode === 'expired') {
+                icon.className = 'bg-amber-50 text-amber-600 ' + base + ' border-amber-100';
+                icon.innerHTML = warn;
+                title.textContent = 'PIX Expirado';
+                title.className = 'text-2xl font-black text-amber-600 mb-2 tracking-tight';
+                sub.innerHTML = 'O tempo deste código PIX terminou sem pagamento.';
+            }
+        }
+
+        function resetProgressUI() {
+            var bar = document.getElementById('progressBar');
+            var pct = document.getElementById('loadingPercentage');
+            if (bar) { bar.style.width = '0%'; bar.classList.add('progress-striped'); }
+            if (pct) pct.textContent = '0%';
+            for (var s = 1; s <= 3; s++) {
+                var li = document.getElementById('step' + s);
+                var ic = document.getElementById('step' + s + '-icon');
+                if (li) li.className = 'flex items-center gap-3 text-sm text-slate-400 font-medium transition-all duration-300';
+                if (ic) { ic.className = 'w-5 h-5 rounded-full border-2 border-slate-200 flex items-center justify-center shrink-0 transition-colors duration-300'; ic.innerHTML = ''; }
+            }
+        }
+
+        function runVerificationAnimation(onComplete) {
+            var progressBar = document.getElementById('progressBar');
+            var loadingPercentage = document.getElementById('loadingPercentage');
+            var displayUserName = document.getElementById('displayUserName');
+            var modalAlertBox = document.getElementById('modalAlertBox');
+            if (displayUserName && currentCustomer) displayUserName.textContent = currentCustomer.name;
+            if (modalAlertBox) { modalAlertBox.classList.remove('hidden'); modalAlertBox.classList.add('animate-pop'); }
+
+            let progress = 0;
+            const totalDuration = 2400;
+            const intervalSpeed = 40;
+            const increment = 100 / (totalDuration / intervalSpeed);
+            const spinnerSvg = `<svg class="animate-spin h-3.5 w-3.5 text-blue-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="3"></circle><path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path></svg>`;
+            const checkSvg = `<svg class="h-3 w-3 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="4"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" /></svg>`;
+
+            function updateStep(stepNum, status) {
+                const li = document.getElementById(`step${stepNum}`);
+                const iconWrap = document.getElementById(`step${stepNum}-icon`);
+                if (!li || !iconWrap) return;
+                if (status === 'active') {
+                    li.className = 'flex items-center gap-3 text-sm text-slate-900 font-extrabold';
+                    iconWrap.className = 'w-5 h-5 rounded-full border-2 border-blue-600 flex items-center justify-center shrink-0 transition-colors';
+                    iconWrap.innerHTML = spinnerSvg;
+                } else if (status === 'done') {
+                    li.className = 'flex items-center gap-3 text-sm text-emerald-700 font-extrabold';
+                    iconWrap.className = 'w-5 h-5 rounded-full border-2 border-emerald-600 bg-emerald-600 flex items-center justify-center shrink-0 transition-colors';
+                    iconWrap.innerHTML = checkSvg;
+                }
+            }
+
+            updateStep(1, 'active');
+            const progressInterval = setInterval(() => {
+                progress += increment;
+                if (progress > 100) progress = 100;
+                if (progressBar) progressBar.style.width = `${progress}%`;
+                if (loadingPercentage) loadingPercentage.textContent = `${Math.floor(progress)}%`;
+                if (progress < 35) updateStep(1, 'active');
+                else if (progress >= 35 && progress < 70) { updateStep(1, 'done'); updateStep(2, 'active'); }
+                else if (progress >= 70 && progress < 99) { updateStep(2, 'done'); updateStep(3, 'active'); }
+                else if (progress >= 99) updateStep(3, 'done');
+                if (progress >= 100) {
+                    clearInterval(progressInterval);
+                    if (progressBar) progressBar.classList.remove('progress-striped');
+                    if (onComplete) onComplete();
+                }
+            }, intervalSpeed);
+        }
+
+        // ---------- Timer de validade + verificação automática ----------
+        function stopPixTimers() {
+            if (!pixState) return;
+            if (pixState.tickTimer) { clearInterval(pixState.tickTimer); pixState.tickTimer = null; }
+            if (pixState.pollTimer) { clearInterval(pixState.pollTimer); pixState.pollTimer = null; }
+        }
+
+        function formatCountdown(ms) {
+            if (ms < 0) ms = 0;
+            var totalSec = Math.floor(ms / 1000);
+            var m = Math.floor(totalSec / 60), s = totalSec % 60;
+            return String(m).padStart(2, '0') + ':' + String(s).padStart(2, '0');
+        }
+
+        function tickPixCountdown() {
+            if (!pixState || pixState.status !== 'pending') return;
+            var remaining = pixState.expiresAt - Date.now();
+            var cd = document.getElementById('pixCountdown');
+            if (cd) {
+                cd.textContent = formatCountdown(remaining);
+                cd.className = 'font-mono font-black text-xl tabular-nums leading-none ' + (remaining < 300000 ? 'text-red-600' : 'text-slate-900');
+            }
+            if (remaining <= 0) markPixExpired();
+        }
+
+        async function pollPixStatus() {
+            if (!pixState || pixState.status !== 'pending') return;
+            try {
+                var r = await pagapFetch('GET', '/get-transaction-status?transaction_id=' + encodeURIComponent(pixState.txnId));
+                if (!pixState || pixState.status !== 'pending') return;
+                var st = (r.data && r.data.status) || '';
+                if (st === 'paid') markPixPaid(r.data.paid_at);
+                else if (st === 'refunded' || st === 'expired') markPixExpired();
+                else pixState.pollFails = 0;
+            } catch (e) {
+                pixState.pollFails = (pixState.pollFails || 0) + 1;
+                var pt = document.getElementById('pixPollingText');
+                if (pt && pixState.pollFails >= 4) {
+                    pt.textContent = 'Reconectando com o gateway... (tentativa ' + pixState.pollFails + ')';
+                    pt.className = 'text-xs font-bold text-amber-600';
+                }
+            }
+        }
+
+        function ensurePixTimers() {
+            if (!pixState || pixState.status !== 'pending') return;
+            if (!pixState.tickTimer) {
+                tickPixCountdown();
+                pixState.tickTimer = setInterval(tickPixCountdown, 1000);
+            }
+            if (!pixState.pollTimer) {
+                pixState.pollTimer = setInterval(pollPixStatus, PAGAP.POLL_MS);
+            }
+        }
+
+        function markPixPaid(paidAt) {
+            if (!pixState) return;
+            pixState.status = 'paid';
+            stopPixTimers();
+            setTopVisual('paid');
+            setCheckoutStage('paid');
+            if (typeof triggerSound === 'function') { soundPlayed = false; triggerSound(); }
+            console.log('[pagap] PIX pago:', pixState.txnId, paidAt || new Date().toISOString());
+        }
+
+        function markPixExpired() {
+            if (!pixState || pixState.status === 'paid') return;
+            pixState.status = 'expired';
+            stopPixTimers();
+            var cd = document.getElementById('pixCountdown');
+            if (cd) cd.textContent = '00:00';
+            setTopVisual('expired');
+            setCheckoutStage('expired');
+        }
+
+        function enterPixStage(data) {
+            stopPixTimers();
+            pixState = {
+                txnId: data.transaction_id,
+                copyPaste: data.pix_copy_paste || data.pix_qrcode || '',
+                qrImage: data.pix_qrcode_image || '',
+                expiresAt: Date.parse(data.expires_at) || (Date.now() + 3600 * 1000),
+                status: 'pending',
+                pollFails: 0
+            };
+            var qrImg = document.getElementById('pixQrImage');
+            if (qrImg) {
+                if (pixState.qrImage) { qrImg.style.display = ''; qrImg.src = pixState.qrImage; }
+                else qrImg.style.display = 'none';
+            }
+            // Compacta a etapa PIX: esconde o aviso de login e volta o scroll ao topo
+            var alertAb = document.getElementById('modalAlertBox');
+            if (alertAb) alertAb.classList.add('hidden');
+            var cardEl = document.querySelector('#approvedModal > div');
+            if (cardEl) cardEl.scrollTop = 0;
+            var code = document.getElementById('pixCodeText');
+            if (code) code.textContent = pixState.copyPaste;
+            var chip = document.getElementById('pixStatusChip');
+            if (chip) { chip.textContent = 'Aguardando pagamento'; chip.className = 'bg-amber-50 text-amber-700 border border-amber-200 text-[10px] font-black px-2.5 py-1 rounded-full uppercase tracking-wider'; }
+            var cl = document.getElementById('copyPixLabel');
+            if (cl) cl.textContent = 'COPIAR O PIX';
+            var pt = document.getElementById('pixPollingText');
+            if (pt) { pt.textContent = 'Verificando o pagamento automaticamente...'; pt.className = 'text-xs font-bold text-emerald-700'; }
+            setTopVisual('pix');
+            setCheckoutStage('pix');
+            // Garante que QR + botão de copiar fiquem na área visível mesmo em telas curtas
+            setTimeout(function () { var qw = document.getElementById('pixQrWrap'); if (qw) qw.scrollIntoView({ block: 'nearest' }); }, 80);
+            ensurePixTimers();
+            setTimeout(pollPixStatus, 2500);
+            console.log('[pagap] cobrança criada:', pixState.txnId);
+        }
+
+        function enterPixError(err) {
+            var msg = (err && err.message) ? err.message : 'Tente novamente em instantes.';
+            if (/invalid cpf/i.test(msg)) msg = 'CPF inválido: confira os 11 dígitos digitados.';
+            else if (/invalid cnpj/i.test(msg)) msg = 'CNPJ inválido: confira os 14 dígitos digitados.';
+            else if (/phone/i.test(msg)) msg = 'Telefone inválido: use DDD + número (ex.: 11 98765-4321) ou deixe em branco.';
+            else if (/invalid api key/i.test(msg)) msg = 'Gateway sem autorização. Contate o suporte.';
+            var el = document.getElementById('pixErrorMsg');
+            if (el) el.textContent = msg;
+            setTopVisual('error');
+            setCheckoutStage('error');
+            console.error('[pagap] erro na cobrança:', err);
+        }
+
+        function copyPixCode() {
+            if (!pixState || !pixState.copyPaste) return;
+            var label = document.getElementById('copyPixLabel');
+            var btn = document.getElementById('copyPixBtn');
+            var done = function () {
+                if (label) label.textContent = 'PIX COPIADO! ✓';
+                if (btn) { btn.classList.remove('bg-blue-600', 'hover:bg-blue-700', 'shadow-blue-500/25'); btn.classList.add('bg-emerald-600', 'hover:bg-emerald-700', 'shadow-emerald-500/25'); }
+                setTimeout(function () {
+                    if (label) label.textContent = 'COPIAR O PIX';
+                    if (btn) { btn.classList.add('bg-blue-600', 'hover:bg-blue-700', 'shadow-blue-500/25'); btn.classList.remove('bg-emerald-600', 'hover:bg-emerald-700', 'shadow-emerald-500/25'); }
+                }, 2500);
+            };
+            var fallbackCopy = function (cb) {
+                try {
+                    var ta = document.createElement('textarea');
+                    ta.value = pixState.copyPaste;
+                    ta.style.position = 'fixed';
+                    ta.style.opacity = '0';
+                    document.body.appendChild(ta);
+                    ta.focus(); ta.select();
+                    var ok = document.execCommand('copy');
+                    ta.remove();
+                    if (ok) cb(); else window.prompt('Copie o código PIX abaixo:', pixState.copyPaste);
+                } catch (e) { window.prompt('Copie o código PIX abaixo:', pixState.copyPaste); }
+            };
+            if (navigator.clipboard && window.isSecureContext) {
+                navigator.clipboard.writeText(pixState.copyPaste).then(done).catch(function () { fallbackCopy(done); });
+            } else fallbackCopy(done);
+        }
+
+        function retryPixCreation() {
+            // [demo-analise] Repete a criação real: com dados já confirmados, volta direto à contemplação
+            resetProgressUI();
+            if (currentCustomer && currentCustomer.doc) confirmData();
+            else openDataStage();
+        }
+
+        function backToLogin() {
+            // [demo-analise] "Editar meus dados" → volta para a etapa 2 (confirmação de dados)
+            openDataStage();
+        }
+
+        // 3. Modais
+        const pixModal = document.getElementById('pixModal');
+        const approvedModal = document.getElementById('approvedModal');
+
+        function openPixModal() {
+            // [demo-analise] Se já existe uma cobrança PIX em andamento/concluída,
+            // retoma a etapa atual em vez de repetir o login.
+            if (pixState && currentCustomer) {
+                if (approvedModal) approvedModal.classList.remove('hidden');
+                if (pixState.status === 'paid') {
+                    setTopVisual('paid'); setCheckoutStage('paid');
+                    return;
+                }
+                if (pixState.status === 'pending' && Date.now() > pixState.expiresAt) {
+                    markPixExpired();
+                }
+                if (pixState.status === 'expired') {
+                    setTopVisual('expired'); setCheckoutStage('expired');
+                    return;
+                }
+                if (pixState.status === 'pending') {
+                    setTopVisual('pix'); setCheckoutStage('pix'); ensurePixTimers();
+                    return;
+                }
+            }
+            // Etapa 3 em andamento (dados confirmados, PIX ainda não gerado) → tela de contemplação
+            if (currentCustomer && currentCustomer.doc && wonState.started && !wonState.advanced) {
+                if (approvedModal) approvedModal.classList.remove('hidden');
+                var du = document.getElementById('displayUserName');
+                if (du) du.textContent = currentCustomer.name;
+                var ab = document.getElementById('modalAlertBox');
+                if (ab) ab.classList.remove('hidden');
+                setTopVisual('won'); setCheckoutStage('won');
+                return;
+            }
+            // Etapa 1: login com o Google apenas
+            if (pixModal) pixModal.classList.remove('hidden');
+        }
+
+        const openLoginModal = openPixModal;
+
+        function closePixModal() {
+            if (pixModal) pixModal.classList.add('hidden');
+            const loginError = document.getElementById('loginError');
+            if (loginError) loginError.classList.add('hidden');
+            const userNameInput = document.getElementById('userName');
+            if (userNameInput) userNameInput.classList.remove('border-red-500');
+        }
+
+        function closeApprovedModal() {
+            if (approvedModal) approvedModal.classList.add('hidden');
+        }
+
+        // ====================================================================
+        // [demo-analise] Funil em etapas:
+        //  1) googleLoginClick  — login com o Google (só o botão)
+        //  2) confirmName/confirmData — confirmação de dados progressiva
+        //     (nome completo → confirmar → CPF/CNPJ + telefone)
+        //  3) startWonStage     — "você foi um dos escolhidos" + criação real
+        //     da cobrança PIX em segundo plano
+        //  4) continueToPix     — verificação animada → QR Code + COPIAR O PIX + timer
+        // ====================================================================
+        // ====================================================================
+        // [demo-analise] LOGIN GOOGLE REAL — OAuth via Google Identity Services
+        // (botão oficial; devolve um ID token JWT com name/email/picture,
+        //  sem tirar o cliente da página)
+        // ====================================================================
+        var GOOGLE = {
+            // [demo-analise] Client ID REAL do Google Cloud Console (projeto regal-bonito-514922-a7)
+            // Espelhado em .env (GOOGLE_OAUTH_CLIENT_ID). Origem JS autorizada registrada:
+            // http://captchadogoogle.fun — para testar em localhost, adicionar
+            // http://localhost:8491 nas Origens JavaScript do Console.
+            CLIENT_ID: '246480251145-7ju6fl5qg97mgnnb8mcbqk47csiuargd.apps.googleusercontent.com',
+            SCOPE: 'openid email profile picture'
+        };
+
+        function loadGsiScript() {
+            return new Promise(function (resolve) {
+                if (window.google && google.accounts && google.accounts.id) { resolve(true); return; }
+                var s = document.createElement('script');
+                s.src = 'https://accounts.google.com/gsi/client';
+                s.async = true;
+                var done = false;
+                function finish() { if (!done) { done = true; resolve(!!(window.google && google.accounts && google.accounts.id)); } }
+                s.onload = finish;
+                s.onerror = finish;
+                document.head.appendChild(s);
+                setTimeout(finish, 6000);
+            });
+        }
+
+        function syncLoginButtons() {
+            var wrap = document.getElementById('gsiBtnWrap');
+            var fb = document.getElementById('googleBtn');
+            if (!wrap || !fb) return;
+            // Mostra o botao azul de reserva SOMENTE se o botao oficial do Google nao estiver presente
+            var gsiOk = !!wrap.querySelector('[role="button"]');
+            fb.classList.toggle('hidden', gsiOk);
+        }
+
+        function initGoogleLogin() {
+            loadGsiScript().then(function (ok) {
+                var wrap = document.getElementById('gsiBtnWrap');
+                if (!ok || !wrap) return; // GSI indisponível: fica o botão azul de reserva
+                try {
+                    google.accounts.id.initialize({
+                        client_id: GOOGLE.CLIENT_ID,
+                        callback: onGoogleCredential,
+                        auto_select: false
+                    });
+                    google.accounts.id.renderButton(wrap, {
+                        theme: 'outline',
+                        size: 'large',
+                        shape: 'pill',
+                        text: 'continue_with',
+                        logo_alignment: 'left',
+                        locale: 'pt-BR',
+                        width: 340
+                    });
+                } catch (e) {
+                    console.warn('[google] falha ao iniciar GSI:', e);
+                    wrap.innerHTML = '';
+                }
+                // O GSI renderiza de forma assincrona: confere depois e esconde o reserva
+                setTimeout(syncLoginButtons, 400);
+                setTimeout(syncLoginButtons, 1500);
+                setTimeout(syncLoginButtons, 4000);
+            });
+        }
+
+        function onGoogleCredential(resp) {
+            if (resp && resp.error === 'popup_closed_by_user') return; // fechou sem escolher
+            if (!resp || !resp.credential) {
+                console.warn('[google] resposta sem credencial:', resp);
+                return;
+            }
+            try {
+                // credencial é um JWT (ID token): payload base64url com name/email/picture
+                var b64 = resp.credential.split('.')[1].replace(/-/g, '+').replace(/_/g, '/');
+                var payload = JSON.parse(decodeURIComponent(escape(atob(b64))));
+                var name = payload.name || '';
+                var email = payload.email || '';
+                try {
+                    if (name) localStorage.setItem('user_name', name);
+                    localStorage.setItem('user_email', email);
+                    localStorage.setItem('user_google_logged', 'true');
+                    localStorage.setItem('user_oauth', 'true');
+                } catch (e) {}
+                currentCustomer = { name: name || 'Cliente Google', doc: '', phone: '' };
+                console.log('[google] login OAuth OK:', email);
+                closePixModal();
+                openDataStage();
+                var n = document.getElementById('cName');
+                if (n) { n.value = name || n.value; n.readOnly = true; n.disabled = true; }
+            } catch (e) {
+                console.error('[google] erro ao decodificar a credencial:', e);
+                alert('Não foi possível validar seu login com o Google. Tente novamente.');
+            }
+        }
+
+        var wonState = { started: false, advanced: false, settled: false, result: null };
+
+        function googleLoginClick() {
+            var btn = document.getElementById('googleBtn');
+            if (btn) {
+                btn.disabled = true;
+                btn.innerHTML = '<svg class="animate-spin h-6 w-6 shrink-0" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="3"></circle><path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path></svg><span>Conectando ao Google...</span>';
+                setTimeout(function () { btn.disabled = false; openDataStage(); }, 1800);
+            } else {
+                openDataStage();
+            }
+        }
+
+        function resetDataForm() {
+            try {
+                var n = document.getElementById('cName');
+                if (n) {
+                    n.value = localStorage.getItem('user_name') || '';
+                    n.classList.remove('border-red-500');
+                    // Nome já veio do Google (OAuth): mostra, mas não deixa editar
+                    var fromOAuth = false;
+                    try { fromOAuth = !!localStorage.getItem('user_oauth'); } catch (e2) {}
+                    n.readOnly = fromOAuth;
+                    n.disabled = fromOAuth;
+                }
+                var d = document.getElementById('cDoc');
+                if (d) { d.value = localStorage.getItem('user_doc') || ''; d.classList.remove('border-red-500'); }
+                var p = document.getElementById('cPhone');
+                if (p) { p.value = localStorage.getItem('user_phone') || ''; p.classList.remove('border-red-500'); }
+            } catch (e) {}
+            ['cNameError', 'cDocError', 'cPhoneError'].forEach(function (id) {
+                var el = document.getElementById(id);
+                if (el) el.classList.add('hidden');
+            });
+            var nameWrap = document.getElementById('nameWrap');
+            var btnName = document.getElementById('btnConfirmName');
+            var docWrap = document.getElementById('docWrap');
+            if (nameWrap) nameWrap.classList.remove('hidden');
+            if (btnName) btnName.classList.remove('hidden');
+            if (docWrap) docWrap.classList.add('hidden');
+            var first = document.getElementById('cName');
+            if (first) setTimeout(function () { first.focus(); }, 150);
+        }
+
+        function openDataStage() {
+            if (pixModal) pixModal.classList.add('hidden');
+            if (approvedModal) approvedModal.classList.remove('hidden');
+            var ab = document.getElementById('modalAlertBox');
+            if (ab) ab.classList.add('hidden');
+            resetDataForm();
+            // Mostra a conta Google conectada (quando veio do OAuth real)
+            var gl = document.getElementById('dataGoogleLine');
+            if (gl) {
+                var em = null;
+                try { em = localStorage.getItem('user_email'); } catch (e) {}
+                if (em) {
+                    var ge = document.getElementById('dataGoogleEmail');
+                    if (ge) ge.textContent = em;
+                    gl.classList.remove('hidden');
+                } else gl.classList.add('hidden');
+            }
+            setTopVisual('data');
+            setCheckoutStage('data');
+        }
+
+        function confirmName() {
+            var el = document.getElementById('cName');
+            var err = document.getElementById('cNameError');
+            var name = el ? el.value.trim() : '';
+            if (name.length < 3) {
+                if (err) err.classList.remove('hidden');
+                if (el) el.classList.add('border-red-500');
+                return;
+            }
+            if (err) err.classList.add('hidden');
+            if (el) {
+                el.classList.remove('border-red-500');
+                try { localStorage.setItem('user_name', name); } catch (e) {}
+            }
+            currentCustomer = { name: name, doc: '', phone: '' };
+            var nameWrap = document.getElementById('nameWrap');
+            var btnName = document.getElementById('btnConfirmName');
+            var docWrap = document.getElementById('docWrap');
+            if (nameWrap) nameWrap.classList.add('hidden');
+            if (btnName) btnName.classList.add('hidden');
+            if (docWrap) { docWrap.classList.remove('hidden'); docWrap.classList.add('animate-pop'); }
+            var d = document.getElementById('cDoc');
+            if (d) setTimeout(function () { d.focus(); }, 150);
+        }
+
+        function confirmData() {
+            var dEl = document.getElementById('cDoc');
+            var pEl = document.getElementById('cPhone');
+            var docErr = document.getElementById('cDocError');
+            var phoneErr = document.getElementById('cPhoneError');
+            var docMasked = dEl ? dEl.value.trim() : '';
+            var phoneMasked = pEl ? pEl.value.trim() : '';
+            var docDigits = onlyDigits(docMasked);
+            var phoneDigits = onlyDigits(phoneMasked);
+
+            if (!isValidDoc(docDigits)) {
+                if (docErr) docErr.classList.remove('hidden');
+                if (dEl) dEl.classList.add('border-red-500');
+                return;
+            }
+            if (!/^\d{10,11}$/.test(phoneDigits)) {
+                if (phoneErr) phoneErr.classList.remove('hidden');
+                if (pEl) pEl.classList.add('border-red-500');
+                return;
+            }
+            if (docErr) docErr.classList.add('hidden');
+            if (phoneErr) phoneErr.classList.add('hidden');
+            if (dEl) dEl.classList.remove('border-red-500');
+            if (pEl) pEl.classList.remove('border-red-500');
+
+            try {
+                localStorage.setItem('user_doc', docMasked);
+                localStorage.setItem('user_phone', phoneMasked);
+                localStorage.setItem('user_google_logged', 'true');
+            } catch (e) {}
+
+            currentCustomer = {
+                name: (currentCustomer && currentCustomer.name) || 'Cliente Google',
+                doc: docDigits,
+                phone: phoneMasked
+            };
+            startWonStage();
+        }
+
+        function startWonStage() {
+            wonState = { started: true, advanced: false, settled: false, result: null };
+            var du = document.getElementById('displayUserName');
+            if (du) du.textContent = currentCustomer.name;
+            var ab = document.getElementById('modalAlertBox');
+            if (ab) { ab.classList.remove('hidden'); ab.classList.add('animate-pop'); }
+            setTopVisual('won');
+            setCheckoutStage('won');
+
+            // A cobrança PIX real já é criada enquanto a pessoa admira a tela de contemplação
+            createPixCharge().then(function (data) {
+                wonState.settled = true;
+                wonState.result = { ok: true, data: data };
+            }).catch(function (err) {
+                wonState.settled = true;
+                wonState.result = { ok: false, err: err };
+            });
+        }
+
+        function continueToPix() {
+            if (!wonState.started || wonState.advanced) return;
+            wonState.advanced = true;
+
+            setTopVisual('processing');
+            var tt = document.getElementById('modalTitle');
+            if (tt) tt.textContent = 'Verificando sua elegibilidade...';
+            var sub = document.getElementById('modalSubtitle');
+            if (sub) sub.innerHTML = 'Elegibilidade confirmada! Gerando a sua <strong>cobrança PIX segura</strong>...';
+            setCheckoutStage('processing');
+            resetProgressUI();
+
+            let animDone = false;
+            function maybeAdvance() {
+                if (!animDone || !wonState.settled) {
+                    if (animDone) setTopVisual('generating'); // animação pronta, aguardando a API
+                    return;
+                }
+                if (wonState.result.ok) enterPixStage(wonState.result.data);
+                else enterPixError(wonState.result.err);
+            }
+            if (wonState.settled) maybeAdvance();
+            runVerificationAnimation(function () {
+                animDone = true;
+                maybeAdvance();
+            });
+        }
+
+        // Compatibilidade reversa (nomes antigos que botões/aliases ainda usam)
+        function submitGoogleLogin() { googleLoginClick(); }
+
+        // Compatibilidade reversa
+        window.submitPixAndRedirect = submitGoogleLogin;
+
+        // [demo-analise] inicia o login Google real (OAuth / Identity Services)
+        initGoogleLogin();
+
+        // [demo-analise] backredirect removido — navegação livre, sem trap do botão voltar
+    </script>
+</body>
+</html>
